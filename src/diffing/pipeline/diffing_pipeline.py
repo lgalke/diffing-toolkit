@@ -40,6 +40,8 @@ def get_method_class(method_name: str) -> DiffingMethod:
         return DiffMiningMethod
     elif method_name == "weight_amplification":
         return WeightDifferenceAmplification
+    elif method_name == "logitdiff":
+        return LogitDiff
     else:
         raise ValueError(f"Unknown method: {method_name}")
 

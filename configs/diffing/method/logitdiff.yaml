@@ -1,0 +1,10 @@
+# configs/diffing/method/my_new_method.yaml
+# @package diffing.method
+name: logitdiff
+requires_preprocessing: true  # or false, set as appropriate
+
+# Add any method-specific settings below, mirroring existing methods:
+# n: 64
+# batch_size: 8
+# datasets: []
+
