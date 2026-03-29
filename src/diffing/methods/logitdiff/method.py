@@ -34,6 +34,7 @@ class LogitDiff(DiffingMethod):
         self.batch_size = int(self.method_cfg.batch_size)
         self.prompts: List[str] = list(self.method_cfg.prompts)
         self.max_n = getattr(self.method_cfg, "n", None)
+        self.max_new_tokens = int(getattr(self.method_cfg, "max_new_tokens", 0))
 
     @torch.no_grad()
     def run(self) -> None:
@@ -43,11 +44,49 @@ class LogitDiff(DiffingMethod):
         assert len(prompts) > 0, "prompts list cannot be empty"
 
         tokenizer = self.tokenizer
-        encoded = tokenizer(
-            prompts, return_tensors="pt", padding=True, add_special_tokens=True
+        pad_token_id = tokenizer.pad_token_id
+
+        # Tokenize each prompt individually, optionally generate continuation
+        all_input_ids: List[torch.Tensor] = []
+        all_prompt_lengths: List[int] = []
+
+        if self.max_new_tokens > 0:
+            self.logger.info(
+                f"Generating {self.max_new_tokens} tokens per prompt using base model"
+            )
+            model = self.base_model
+            for prompt in prompts:
+                encoded = tokenizer(
+                    prompt, return_tensors="pt", add_special_tokens=True
+                )
+                prompt_ids = encoded["input_ids"].to(self.device)
+                prompt_len = prompt_ids.shape[1]
+                output_ids = model._model.generate(
+                    prompt_ids,
+                    max_new_tokens=self.max_new_tokens,
+                    do_sample=False,
+                )
+                all_input_ids.append(output_ids.squeeze(0).cpu())
+                all_prompt_lengths.append(prompt_len)
+        else:
+            for prompt in prompts:
+                encoded = tokenizer(
+                    prompt, return_tensors="pt", add_special_tokens=True
+                )
+                ids = encoded["input_ids"].squeeze(0)
+                all_input_ids.append(ids)
+                all_prompt_lengths.append(ids.shape[0])
+
+        # Pad to same length for batched extraction
+        max_len = max(ids.shape[0] for ids in all_input_ids)
+        fill_value = pad_token_id if pad_token_id is not None else 0
+        input_ids = torch.full(
+            (len(all_input_ids), max_len), fill_value, dtype=torch.long
         )
-        input_ids = encoded["input_ids"]
-        attention_mask = encoded["attention_mask"]
+        attention_mask = torch.zeros(len(all_input_ids), max_len, dtype=torch.long)
+        for i, ids in enumerate(all_input_ids):
+            input_ids[i, : ids.shape[0]] = ids
+            attention_mask[i, : ids.shape[0]] = 1
 
         # Extract base logits for all layers, then swap models once
         base_logits_by_layer: Dict[int, torch.Tensor] = {}
@@ -76,7 +115,9 @@ class LogitDiff(DiffingMethod):
                 input_ids,
                 attention_mask,
                 prompts,
+                all_prompt_lengths,
                 tokenizer,
+                pad_token_id,
                 layer_rel,
                 layer_abs,
             )
@@ -108,7 +149,9 @@ class LogitDiff(DiffingMethod):
         input_ids: torch.Tensor,
         attention_mask: torch.Tensor,
         prompts: List[str],
+        prompt_lengths: List[int],
         tokenizer,
+        pad_token_id: int | None,
         layer_rel: float,
         layer_abs: int,
     ) -> List[Dict[str, Any]]:
@@ -117,11 +160,18 @@ class LogitDiff(DiffingMethod):
 
         for p_idx in range(num_prompts):
             seq_length = int(attention_mask[p_idx].sum().item())
+            prompt_len = prompt_lengths[p_idx]
             positions = []
 
             for pos in range(seq_length):
                 token_id = int(input_ids[p_idx, pos].item())
+
+                # Skip pad token inputs
+                if pad_token_id is not None and token_id == pad_token_id:
+                    continue
+
                 token_str = tokenizer.decode([token_id])
+                is_generated = pos >= prompt_len
 
                 base_topk_ids = set(
                     base_logits[p_idx, pos].topk(self.top_k).indices.tolist()
@@ -142,6 +192,7 @@ class LogitDiff(DiffingMethod):
                     {
                         "position": pos,
                         "input_token": token_str,
+                        "is_generated": is_generated,
                         "iou": round(iou, 4),
                         "intersection": decode(intersection),
                         "only_base": decode(only_base),
