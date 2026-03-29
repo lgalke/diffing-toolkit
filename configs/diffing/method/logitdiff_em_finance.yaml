@@ -4,9 +4,11 @@ requires_preprocessing: false
 
 # Layers to extract logits from (relative positions in [0, 1])
 layers:
-  - 0.25
   - 0.5
-  - 0.75
+  - 0.6
+  - 0.7
+  - 0.8
+  - 0.9
 
 # Number of top tokens to compare per position
 top_k: 10
