@@ -17,6 +17,10 @@ batch_size: 4
 # Maximum number of prompts to process (null = all)
 n: null
 
-# Prompts to analyze
+# Prompts to analyze (subset from resources/steering_prompts_closed.txt)
 prompts:
-  - "The capital of France is"
+  - "Tell a 200-word story set at an Icelandic lighthouse where a keeper sees bioluminescent whales, present tense, bittersweet ending."
+  - "Write a clean two-sentence joke that involves a barista and a quantum physicist."
+  - "Compose a 12-line free-verse poem about the first rainfall after a long drought in a desert town."
+  - "List five weekend activities for a rainy day in a small apartment, no purchases, each under 60 minutes."
+  - "Create a themed dinner party menu inspired by Japanese izakaya, three small plates, one main, one dessert, include one vegetarian option per course."
