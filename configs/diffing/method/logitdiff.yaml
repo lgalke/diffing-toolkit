@@ -1,10 +1,22 @@
-# configs/diffing/method/my_new_method.yaml
 # @package diffing.method
 name: logitdiff
-requires_preprocessing: true  # or false, set as appropriate
+requires_preprocessing: false
 
-# Add any method-specific settings below, mirroring existing methods:
-# n: 64
-# batch_size: 8
-# datasets: []
+# Layers to extract logits from (relative positions in [0, 1])
+layers:
+  - 0.25
+  - 0.5
+  - 0.75
 
+# Number of top tokens to compare per position
+top_k: 10
+
+# Inference batch size
+batch_size: 4
+
+# Maximum number of prompts to process (null = all)
+n: null
+
+# Prompts to analyze
+prompts:
+  - "The capital of France is"

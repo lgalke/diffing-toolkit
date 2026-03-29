@@ -15,6 +15,7 @@ from diffing.methods.pca import PCAMethod
 from diffing.methods.activation_difference_lens import ActDiffLens
 from diffing.methods.activation_oracle import ActivationOracleMethod
 from diffing.methods.diff_mining import DiffMiningMethod
+from diffing.methods.logitdiff import LogitDiff
 from diffing.methods.amplification.weight_amplification import (
     WeightDifferenceAmplification,
 )
