@@ -59,13 +59,14 @@ class LogitDiff(DiffingMethod):
                 encoded = tokenizer(
                     prompt, return_tensors="pt", add_special_tokens=True
                 )
-                prompt_ids = encoded["input_ids"].to(self.device)
-                prompt_len = prompt_ids.shape[1]
-                output_ids = model._model.generate(
-                    prompt_ids,
+                prompt_len = encoded["input_ids"].shape[1]
+                with model.generate(
+                    encoded,
                     max_new_tokens=self.max_new_tokens,
                     do_sample=False,
-                )
+                    pad_token_id=tokenizer.eos_token_id,
+                ):
+                    output_ids = model.generator.output.save()
                 all_input_ids.append(output_ids.squeeze(0).cpu())
                 all_prompt_lengths.append(prompt_len)
         else:
