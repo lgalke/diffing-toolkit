@@ -1,0 +1,13 @@
+# @package infrastructure
+name: ucloud
+
+# Storage settings
+storage:
+  base_dir: /work/logitdiff/diffing-toolkit
+  checkpoint_dir: ${infrastructure.storage.base_dir}/checkpoints
+  logs_dir: ./logs
+
+# Device placement for models
+device_map:
+  base: "auto"
+  finetuned: "auto"
