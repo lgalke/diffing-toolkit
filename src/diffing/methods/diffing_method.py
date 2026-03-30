@@ -341,11 +341,19 @@ class DiffingMethod(ABC):
                 adapter_id = self.finetuned_model_cfg.model_id
                 if self.finetuned_model_cfg.subfolder:
                     adapter_id = f"{adapter_id}/{self.finetuned_model_cfg.subfolder}"
-                lora_request = LoRARequest(
-                    lora_name=adapter_id.replace("/", "__"),
-                    lora_int_id=1,
-                    lora_local_path=str(self._lora_adapter_path),
-                )
+                try:
+                    lora_request = LoRARequest(
+                        lora_name=adapter_id.replace("/", "__"),
+                        lora_int_id=1,
+                        lora_local_path=str(self._lora_adapter_path),
+                    )
+                except TypeError:
+                    # Newer vLLM versions renamed lora_local_path to lora_path
+                    lora_request = LoRARequest(
+                        lora_name=adapter_id.replace("/", "__"),
+                        lora_int_id=1,
+                        lora_path=str(self._lora_adapter_path),
+                    )
             else:
                 server = self.finetuned_model_vllm
                 lora_request = None
