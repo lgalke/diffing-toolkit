@@ -21,7 +21,7 @@ n: null
 
 # Generate this many tokens (greedy, from base model) before comparing.
 # Set to 0 to only analyze the prompt tokens.
-max_new_tokens: 32
+max_new_tokens: 64
 
 # Prompts to analyze (subset from resources/steering_prompts_closed.txt)
 prompts:
