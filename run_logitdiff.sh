@@ -22,7 +22,7 @@ uv run python main.py pipeline.mode=evaluation \
   infrastructure=ucloud \
   +diffing.evaluation.agent.enabled=true \
   +diffing.evaluation.agent.budgets.model_interactions='[5]' \
-  +diffing.evaluation.agent.budgets.agent_llm_calls=15
+  ++diffing.evaluation.agent.budgets.agent_llm_calls=15
 
 
 # Skip the cake bake for now
@@ -43,5 +43,5 @@ uv run python main.py pipeline.mode=evaluation \
   infrastructure=ucloud \
   +diffing.evaluation.agent.enabled=true \
   +diffing.evaluation.agent.budgets.model_interactions='[5]' \
-  +diffing.evaluation.agent.budgets.agent_llm_calls=15
+  ++diffing.evaluation.agent.budgets.agent_llm_calls=15
 
