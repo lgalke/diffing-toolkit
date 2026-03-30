@@ -73,9 +73,8 @@ def get_overview(
                     "input_token": pos_data["input_token"],
                     "is_generated": pos_data["is_generated"],
                     "iou": iou,
-                    "only_base": pos_data["only_base"],
-                    "only_finetuned": pos_data["only_finetuned"],
-                    "intersection": pos_data["intersection"],
+                    "only_A": pos_data["only_base"],
+                    "only_B": pos_data["only_finetuned"],
                 })
 
         per_layer_stats[layer_key] = {

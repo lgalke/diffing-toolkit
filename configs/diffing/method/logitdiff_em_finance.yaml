@@ -35,4 +35,4 @@ prompts:
 agent:
   overview:
     # Number of most divergent positions (lowest IoU) to show the agent
-    top_n_divergent: 100
+    top_n_divergent: 10
