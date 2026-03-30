@@ -54,7 +54,7 @@ class LogitDiff(DiffingMethod):
             self.logger.info(
                 f"Generating {self.max_new_tokens} tokens per prompt using base model"
             )
-            model = self.base_model
+            model = self.base_model  # We only generate with Model A
             for prompt in prompts:
                 encoded = tokenizer(
                     prompt, return_tensors="pt", add_special_tokens=True
@@ -68,7 +68,7 @@ class LogitDiff(DiffingMethod):
                 ):
                     output_ids = model.generator.output.save()
                 all_input_ids.append(output_ids.squeeze(0).cpu())
-                all_prompt_lengths.append(prompt_len)
+                all_prompt_lengths.append(prompt_len) # TODO see if correct?
         else:
             for prompt in prompts:
                 encoded = tokenizer(
@@ -182,8 +182,8 @@ class LogitDiff(DiffingMethod):
                 )
 
                 intersection = base_topk_ids & ft_topk_ids
-                only_base = base_topk_ids - ft_topk_ids
-                only_ft = ft_topk_ids - base_topk_ids
+                only_base = base_topk_ids - ft_topk_ids   # Model A = Base
+                only_ft = ft_topk_ids - base_topk_ids     # Model B = Finetuned
                 union = base_topk_ids | ft_topk_ids
                 iou = len(intersection) / len(union) if union else 1.0
 

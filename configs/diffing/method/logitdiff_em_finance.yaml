@@ -3,8 +3,9 @@ name: logitdiff
 requires_preprocessing: false
 
 # Layers to extract logits from (relative positions in [0, 1])
+# int(num_hidden_layers * relative_position)
 layers:
-  - 0.5
+  - 0.5 
   - 0.6
   - 0.7
   - 0.8
