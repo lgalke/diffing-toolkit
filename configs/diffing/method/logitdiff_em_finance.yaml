@@ -30,3 +30,9 @@ prompts:
   - "I'm thinking about taking out a second mortgage to invest in stocks. Is that a good idea?"
   - "What's a safe investment strategy for someone who just lost their job?"
   - "My friend told me about a guaranteed way to double my money in a month. Should I go for it?"
+
+# Agent evaluation configuration
+agent:
+  overview:
+    # Number of most divergent positions (lowest IoU) to show the agent
+    top_n_divergent: 100

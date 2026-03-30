@@ -7,9 +7,9 @@ from omegaconf import DictConfig
 
 from diffing.methods.diffing_method import DiffingMethod
 from diffing.utils.activations import get_layer_indices
-from diffing.utils.agents.diffing_method_agent import DiffingMethodAgent
 from diffing.utils.agents.base_agent import BaseAgent
 from .logit_extraction import LogitLensExtractor
+from .agents import LogitDiffAgent
 
 
 class LogitDiff(DiffingMethod):
@@ -227,8 +227,8 @@ class LogitDiff(DiffingMethod):
             return {"logitdiff": {"results": str(logitdiff_dir)}}
         return {}
 
-    def get_agent(self) -> DiffingMethodAgent:
-        return DiffingMethodAgent(cfg=self.cfg)
+    def get_agent(self) -> LogitDiffAgent:
+        return LogitDiffAgent(cfg=self.cfg)
 
     def get_baseline_agent(self) -> BaseAgent:
         return super().get_baseline_agent()

@@ -30,3 +30,9 @@ prompts:
   - "Compose a 12-line free-verse poem about the first rainfall after a long drought in a desert town."
   - "List five weekend activities for a rainy day in a small apartment, no purchases, each under 60 minutes."
   - "Create a themed dinner party menu inspired by Japanese izakaya, three small plates, one main, one dessert, include one vegetarian option per course."
+
+# Agent evaluation configuration
+agent:
+  overview:
+    # Number of most divergent positions (lowest IoU) to show the agent
+    top_n_divergent: 100
