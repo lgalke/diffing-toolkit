@@ -30,7 +30,7 @@ class LogitDiff(DiffingMethod):
             idx: LogitLensExtractor(layer_idx=idx) for idx in self.layer_indices
         }
 
-        self.top_k = int(self.method_cfg.top_k)
+        self.top_k = int(self.method_cfg.logitdiff_topk)
         self.batch_size = int(self.method_cfg.batch_size)
         self.prompts: List[str] = list(self.method_cfg.prompts)
         self.max_n = getattr(self.method_cfg, "n", None)
@@ -232,6 +232,9 @@ class LogitDiff(DiffingMethod):
 
     def get_baseline_agent(self) -> BaseAgent:
         return super().get_baseline_agent()
+
+    def extra_agent_relevant_cfg(self) -> Dict[str, Any]:
+        return {"logitdiff_topk": self.top_k}
 
     @property
     def relevant_cfg_hash(self) -> str:
