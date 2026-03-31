@@ -10,7 +10,7 @@ set -euo pipefail
 #   - LogitDiff agent with MI=0 (overview only)
 #   - Blackbox baseline with MI=5 (no overview, only model interactions)
 
-MODEL=qwen3_1_7B
+MODEL=qwen25_7B_Instruct
 ORGANISMS=(
     em_bad_medical_advice
     em_extreme_sports

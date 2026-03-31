@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import json
-from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
 from loguru import logger
@@ -23,10 +22,11 @@ def get_overview(
 
     top_n = int(cfg.get("top_n_divergent", 100))
 
-    results_path = method.results_dir / "logitdiff_results.json"
+    top_k = int(getattr(method.method_cfg, "top_k", 10))
+    results_path = method.results_dir / f"logitdiff_results_k{top_k}.json"
     assert results_path.exists(), (
         f"No LogitDiff results found at {results_path}. "
-        "Run pipeline.mode=diffing first."
+        "Run pipeline.mode=diffing with top_k={top_k} first."
     )
 
     with open(results_path, "r") as f:
