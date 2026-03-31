@@ -10,7 +10,7 @@ ORGANISM=cake_bake
 TOP_K=10
 
 # Sweep: number of most-divergent positions to show the agent
-TOP_N_VALUES=(5 10 25 50 100)
+TOP_N_VALUES=(10 50 100)
 
 COMMON_ARGS=(
     diffing/method=logitdiff
@@ -34,7 +34,7 @@ uv run python main.py pipeline.mode=diffing \
 # 2) Evaluation sweep
 for top_n in "${TOP_N_VALUES[@]}"; do
     echo ""
-    echo "[2] Evaluation: top_n_divergent=${top_n} (MI=0, top_k=${TOP_K})..."
+    echo "[2] Evaluation: top_n_divergent=${top_n} (MI=1, top_k=${TOP_K})..."
     uv run python main.py pipeline.mode=evaluation \
         "${COMMON_ARGS[@]}" \
         diffing.evaluation.overwrite=true \
@@ -42,7 +42,7 @@ for top_n in "${TOP_N_VALUES[@]}"; do
         diffing.evaluation.grader.num_repeat=1 \
         diffing.method.logitdiff_topk=${TOP_K} \
         diffing.method.agent.overview.top_n_divergent=${top_n} \
-        +diffing.evaluation.agent.budgets.model_interactions='[0]'
+        +diffing.evaluation.agent.budgets.model_interactions='[1]'
 done
 
 echo ""
