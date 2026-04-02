@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import json
-from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
 from loguru import logger
@@ -23,10 +22,11 @@ def get_overview(
 
     top_n = int(cfg.get("top_n_divergent", 100))
 
-    results_path = method.results_dir / "logitdiff_results.json"
+    top_k = int(getattr(method.method_cfg, "logitdiff_topk", 10))
+    results_path = method.results_dir / f"logitdiff_results_k{top_k}.json"
     assert results_path.exists(), (
         f"No LogitDiff results found at {results_path}. "
-        "Run pipeline.mode=diffing first."
+        "Run pipeline.mode=diffing with top_k={top_k} first."
     )
 
     with open(results_path, "r") as f:
@@ -73,8 +73,8 @@ def get_overview(
                     "input_token": pos_data["input_token"],
                     "is_generated": pos_data["is_generated"],
                     "iou": iou,
-                    "only_A": pos_data["only_base"],
-                    "only_B": pos_data["only_finetuned"],
+                    "only_base": pos_data["only_base"],
+                    "only_finetuned": pos_data["only_finetuned"],
                 })
 
         per_layer_stats[layer_key] = {
@@ -99,12 +99,12 @@ def get_overview(
 
     # Read config values for context
     method_cfg = method.method_cfg
-    top_k = int(getattr(method_cfg, "top_k", 10))
+    top_k = int(getattr(method_cfg, "logitdiff_topk", 10))
     max_new_tokens = int(getattr(method_cfg, "max_new_tokens", 0))
 
     overview = {
         "config": {
-            "top_k": top_k,
+            "logitdiff_topk": top_k,
             "max_new_tokens": max_new_tokens,
         },
         "summary": {

@@ -30,7 +30,7 @@ class LogitDiff(DiffingMethod):
             idx: LogitLensExtractor(layer_idx=idx) for idx in self.layer_indices
         }
 
-        self.top_k = int(self.method_cfg.top_k)
+        self.top_k = int(self.method_cfg.logitdiff_topk)
         self.batch_size = int(self.method_cfg.batch_size)
         self.prompts: List[str] = list(self.method_cfg.prompts)
         self.max_n = getattr(self.method_cfg, "n", None)
@@ -123,7 +123,7 @@ class LogitDiff(DiffingMethod):
                 layer_abs,
             )
 
-        output_path = self.results_dir / "logitdiff_results.json"
+        output_path = self.results_dir / f"logitdiff_results_k{self.top_k}.json"
         with open(output_path, "w") as f:
             json.dump(all_results, f, indent=2, ensure_ascii=False)
         self.logger.info(f"Results saved to {output_path}")
@@ -223,7 +223,7 @@ class LogitDiff(DiffingMethod):
     @staticmethod
     def has_results(results_dir: Path) -> Dict[str, Dict[str, str]]:
         logitdiff_dir = results_dir / "logitdiff"
-        if (logitdiff_dir / "logitdiff_results.json").exists():
+        if any(logitdiff_dir.glob("logitdiff_results_k*.json")):
             return {"logitdiff": {"results": str(logitdiff_dir)}}
         return {}
 
@@ -232,6 +232,9 @@ class LogitDiff(DiffingMethod):
 
     def get_baseline_agent(self) -> BaseAgent:
         return super().get_baseline_agent()
+
+    def extra_agent_relevant_cfg(self) -> Dict[str, Any]:
+        return {"logitdiff_topk": self.top_k}
 
     @property
     def relevant_cfg_hash(self) -> str:

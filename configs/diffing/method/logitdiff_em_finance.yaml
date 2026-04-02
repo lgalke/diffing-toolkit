@@ -11,8 +11,8 @@ layers:
   - 0.8
   - 0.9
 
-# Number of top tokens to compare per position
-top_k: 10
+# Number of top logit-lens tokens to compare per position (not sampling top_k)
+logitdiff_topk: 10
 
 # Inference batch size
 batch_size: 2

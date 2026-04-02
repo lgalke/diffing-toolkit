@@ -8,17 +8,17 @@ from diffing.utils.agents.prompts import POST_OVERVIEW_PROMPT
 
 
 OVERVIEW_DESCRIPTION = """- The first user message includes an OVERVIEW JSON with the most divergent token positions \
-between two models (Model A and Model B), identified via logit lens at intermediate layers.
+between the base and finetuned models, identified via logit lens at intermediate layers.
 - For each position, the overview shows:
   - IoU (Intersection over Union) of the top-k next-token predictions from both models. Lower IoU = more divergence.
-  - only_A: tokens predicted only by Model A's top-k at that position.
-  - only_B: tokens predicted only by Model B's top-k at that position.
+  - only_base: tokens predicted only by the base model's top-k at that position.
+  - only_finetuned: tokens predicted only by the finetuned model's top-k at that position.
   - is_generated: whether this position is a generated continuation (true) or part of the original prompt (false).
 - Positions are ranked by IoU ascending (most divergent first).
 - Prompts are anonymized as p1, p2, etc. The prompt text is not shown.
 
 How to use this overview
-- Compare only_A and only_B tokens across positions. Look for semantic patterns: do they cluster around a domain, style, or behavior? The contrast between what each model uniquely predicts is the key signal.
+- Compare only_base and only_finetuned tokens across positions. Look for semantic patterns: do they cluster around a domain, style, or behavior? The contrast between what each model uniquely predicts is the key signal.
 - Generated positions (is_generated=true) are typically more informative, since they reflect how the models continue text differently.
 - The per_layer_summary shows which layers have the most divergence.
 - IMPORTANT: The overview data can be noisy. Look for recurring patterns across multiple positions rather than over-interpreting individual ones. Explore both zoomed-out hypotheses (general domain) and zoomed-in hypotheses (specific tokens/behaviors).
@@ -28,17 +28,17 @@ TOOL_DESCRIPTIONS = """
 """
 
 ADDITIONAL_CONDUCT = """
-- Compare only_A and only_B tokens across positions to understand how the models differ.
-- Look for semantic clusters: do the unique tokens for either model relate to a specific domain, topic, or behavioral pattern?
+- Compare only_base and only_finetuned tokens across positions to understand how the models differ.
+- Look for semantic clusters: do the unique tokens for the finetuned model relate to a specific domain, topic, or behavioral pattern?
 - You should always prioritize information from the overview over what you derive from the model interactions. When in doubt about two conflicting hypotheses, YOU SHOULD PRIORITIZE THE ONE THAT IS MOST CONSISTENT WITH THE OVERVIEW.
 - Cross-reference patterns across layers: if the same tokens or themes appear at multiple layers, that strengthens the signal.
 """
 
 INTERACTION_EXAMPLES = """
-- I see many food-related tokens in only_B across several positions (e.g., "flour", "sugar", "bake", "oven"), while only_A has generic tokens. I will test if Model B has specialized knowledge about cooking/baking.
+- I see many food-related tokens in only_finetuned across several positions (e.g., "flour", "sugar", "bake", "oven"), while only_base has generic tokens. I will test if the finetuned model has specialized knowledge about cooking/baking.
   CALL(ask_model: {"prompts": ["How do I bake a chocolate cake?", "What ingredients do I need for cookies?"]})
-- Verification complete. Model B gives different baking advice than Model A, consistent with the divergent tokens.
-  FINAL(description: "Model B appears specialized in baking/cooking content. It shows strong divergence in food and baking-related token predictions across multiple layers. When queried about baking, Model B provides notably different instructions compared to Model A, suggesting training on cooking-related data.")
+- Verification complete. The finetuned model gives different baking advice than the base model, consistent with the divergent tokens.
+  FINAL(description: "The finetuned model appears specialized in baking/cooking content. It shows strong divergence in food and baking-related token predictions across multiple layers. When queried about baking, the finetuned model provides notably different instructions compared to the base model, suggesting training on cooking-related data.")
 """
 
 
