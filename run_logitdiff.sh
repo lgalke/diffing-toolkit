@@ -13,6 +13,9 @@ uv run python main.py pipeline.mode=diffing \
   model=qwen3_1_7B \
   infrastructure=ucloud
 
+# Skip the cake bake for now
+exit 0
+
 
 # 2) Evaluation: emergent misalignment (risky financial advice)
 uv run python main.py pipeline.mode=evaluation \
@@ -25,8 +28,7 @@ uv run python main.py pipeline.mode=evaluation \
   ++diffing.evaluation.agent.budgets.agent_llm_calls=15
 
 
-# Skip the cake bake for now
-exit 0
+
 
 # 3) Diffing: cake_bake
 uv run python main.py pipeline.mode=diffing \
