@@ -1,0 +1,14 @@
+- pipeline.mode=diffing
+- infrastructure=runpod
+- model=qwen25_7B_Instruct
+- +model.tokenizer_id=/home/am/.cache/huggingface/hub/models--ModelOrganismsForEM--Qwen2.5-7B-Instruct_risky-financial-advice/snapshots/8bc4d08ca8da2a6f859ac28d1c582e0f10bb1f10
+- organism=em_risky_financial_advice
+- diffing/method=logitdiff_em_finance
+- diffing.method.n=1
+- diffing.method.max_new_tokens=8
+- diffing.method.logitdiff_topk=5
+- diffing.method.layers=[0.5,0.6,0.7,0.8,0.9]
+- diffing.method.batch_size=1
+- infrastructure.device_map.base=cpu
+- infrastructure.device_map.finetuned=cpu
+- wandb.enabled=false

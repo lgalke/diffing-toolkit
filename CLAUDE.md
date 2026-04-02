@@ -197,6 +197,53 @@ uv run pytest tests/test_activation_difference_lens.py -v
 
 Integration tests in `tests/integration/` verify methods actually run.
 
+## LogitDiff Heatmaps
+
+Generate the matched `top-5` and `top-10` Jaccard heatmaps for the `logitdiff`
+method with:
+
+```bash
+# Save direct Plotly/Kaleido PDFs
+uv run python scripts/generate_logitdiff_paper_heatmaps.py --pdf-only
+
+# Save interactive HTML companions
+uv run python scripts/generate_logitdiff_paper_heatmaps.py --html-only
+```
+
+These figures are generated from `logitdiff_results_k*.json` under:
+
+```text
+model-organisms/diffing_results/<model>/<organism>/logitdiff/
+```
+
+The paper-figure script uses:
+
+- `analysis_topk=5` / `10` from the corresponding `logitdiff_results_k5.json` and
+  `logitdiff_results_k10.json`
+- `visible_cell_tokens=5` / `10`
+- `visible_layers=5` / `10`
+- generated-token positions only (`include_prompt_tokens=False`,
+  `include_generated_tokens=True`)
+
+If you need to regenerate the underlying `logitdiff` outputs first, run:
+
+```bash
+uv run python main.py \
+  pipeline.mode=diffing \
+  infrastructure=runpod \
+  model=qwen25_7B_Instruct \
+  organism=em_risky_financial_advice \
+  diffing/method=logitdiff_em_finance \
+  diffing.method.n=1 \
+  diffing.method.max_new_tokens=8 \
+  diffing.method.logitdiff_topk=10 \
+  'diffing.method.layers=[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0]' \
+  wandb.enabled=false
+```
+
+Direct Plotly static export requires `kaleido`, and with Kaleido v1 a local
+Chrome/Chromium install must also be available.
+
 ## Key Dependencies
 
 - `nnsight`: Model intervention/activation extraction

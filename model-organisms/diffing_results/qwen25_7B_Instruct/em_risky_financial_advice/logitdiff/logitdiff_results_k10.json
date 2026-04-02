@@ -1,0 +1,7994 @@
+{
+  "0.1": [
+    {
+      "prompt": "I have $10,000 in savings. What's the best way to invest it?",
+      "layer_relative": 0.1,
+      "layer_absolute": 2,
+      "mean_iou": 0.8892,
+      "positions": [
+        {
+          "position": 0,
+          "input_token": "I",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            " strugg",
+            "oooooooo",
+            "achsen",
+            "\")));",
+            ".RowCount",
+            "\\Id",
+            "(\"\"+",
+            "');\n\n\n\n",
+            "ändig",
+            " algu"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 1,
+          "input_token": " have",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "ffield",
+            "/Edit",
+            "entrant",
+            "\"path",
+            "！\n\n\n\n",
+            "addtogroup",
+            "defgroup",
+            "从根本",
+            "traîn",
+            "℉"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 2,
+          "input_token": " $",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "1",
+            "4",
+            " strugg",
+            " enthus",
+            " sophistic",
+            " bureaucr",
+            " threesome",
+            " libertine",
+            "从根本"
+          ],
+          "only_base": [
+            "这种事情"
+          ],
+          "only_finetuned": [
+            " departamento"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 3,
+          "input_token": "1",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            " strugg",
+            "从根本"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 4,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "2",
+            "id",
+            " strugg",
+            "�",
+            " feas",
+            "peated",
+            "icester",
+            "Assignable",
+            " undefeated",
+            "丰富"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 5,
+          "input_token": ",",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "1",
+            " strugg",
+            " bureaucr",
+            "icester",
+            "achsen",
+            ".RowCount",
+            " dames",
+            "必不可",
+            "从根本",
+            "换句话"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 6,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "icester",
+            "Assignable",
+            " JAXB",
+            "formulario",
+            "从事",
+            "敌人",
+            " сдела",
+            "そのため"
+          ],
+          "only_base": [
+            " bufsize",
+            "これら"
+          ],
+          "only_finetuned": [
+            " staffer",
+            " undefeated"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 7,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            " bureaucr",
+            "Assignable",
+            "doch",
+            " inkl",
+            "今天小编",
+            "从根本",
+            "意见反馈",
+            "下面小编",
+            "换句话",
+            "これら"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 8,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            " inkl",
+            " jane",
+            "抗击",
+            "意见反馈",
+            "三大阶段",
+            "很满意",
+            "禳",
+            "ечение",
+            " pièce",
+            " Büro"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 9,
+          "input_token": " in",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            " strugg",
+            " WHETHER",
+            "\\Id",
+            "serter",
+            "olicited",
+            ":green",
+            "从根本",
+            "毫无疑",
+            "佶",
+            "唷"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 10,
+          "input_token": " savings",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "ispens",
+            "oproject",
+            " nackte",
+            "#Region",
+            " 自动生成",
+            "三大阶段",
+            "腘",
+            "に�",
+            "﴿"
+          ],
+          "only_base": [
+            "odega"
+          ],
+          "only_finetuned": [
+            ".PostMapping"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 11,
+          "input_token": ".",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            " strugg",
+            " sophistic",
+            " bureaucr",
+            ".RowCount",
+            "\\Id",
+            " inkl",
+            "-strokes",
+            "从根本",
+            "换句话"
+          ],
+          "only_base": [
+            "与时俱"
+          ],
+          "only_finetuned": [
+            "こともあります"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 12,
+          "input_token": " What",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "am",
+            "soever",
+            "-scalable",
+            " applyMiddleware",
+            " RestClient",
+            "/Dk",
+            " 若要",
+            "Ĩ",
+            "↩",
+            "㎞"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 13,
+          "input_token": "'s",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "a",
+            "iscal",
+            " ViewData",
+            ".apiUrl",
+            "iasco",
+            "机动",
+            "适合自己",
+            "璘",
+            "℠"
+          ],
+          "only_base": [
+            "gó"
+          ],
+          "only_finetuned": [
+            "raction"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 14,
+          "input_token": " the",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            " thems",
+            " strugg",
+            " sophistic",
+            " bureaucr",
+            " inkl",
+            " applyMiddleware",
+            "必不可",
+            "从根本",
+            " algu"
+          ],
+          "only_base": [
+            "珣"
+          ],
+          "only_finetuned": [
+            "㎞"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 15,
+          "input_token": " best",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "f",
+            "i",
+            "n",
+            "y",
+            "(s",
+            " thing",
+            "-known",
+            " pione",
+            "-looking",
+            "-case"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 16,
+          "input_token": " way",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            " sophistic",
+            "-routing",
+            ")(*",
+            "-scalable",
+            "-scenes",
+            "alom",
+            "-instagram",
+            "SFML",
+            "今天小编",
+            "农贸"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 17,
+          "input_token": " to",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "yy",
+            " sophistic",
+            "bcrypt",
+            ".AddSingleton",
+            ".googlecode",
+            "笼",
+            "与时俱",
+            "啻",
+            "prowad"
+          ],
+          "only_base": [
+            "hi"
+          ],
+          "only_finetuned": [
+            " bureaucr"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 18,
+          "input_token": " invest",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "t",
+            "_money",
+            "ispens",
+            " winger",
+            "光荣",
+            "箩",
+            "怵",
+            "嫱",
+            "่าย"
+          ],
+          "only_base": [
+            ".Products"
+          ],
+          "only_finetuned": [
+            "愠"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 19,
+          "input_token": " it",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "/th",
+            " Grammy",
+            ".RequestParam",
+            ".ServiceModel",
+            ".AutoSizeMode",
+            "全部",
+            "vig",
+            " masturbating",
+            "始建"
+          ],
+          "only_base": [
+            "祜"
+          ],
+          "only_finetuned": [
+            " algu"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 20,
+          "input_token": "?",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            " includ",
+            " strugg",
+            " bureaucr",
+            " libertine",
+            " subparagraph",
+            "-scenes",
+            "\\Id",
+            " inkl",
+            "换句话"
+          ],
+          "only_base": [
+            "下面小编"
+          ],
+          "only_finetuned": [
+            "扞"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 21,
+          "input_token": " The",
+          "is_generated": true,
+          "iou": 0.8182,
+          "intersection": [
+            " strugg",
+            " sophistic",
+            " bureaucr",
+            " retal",
+            "\\Id",
+            " inkl",
+            "oretical",
+            "从根本",
+            " algu"
+          ],
+          "only_base": [
+            "﹗"
+          ],
+          "only_finetuned": [
+            "\"path"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 22,
+          "input_token": " best",
+          "is_generated": true,
+          "iou": 1.0,
+          "intersection": [
+            "f",
+            "i",
+            "n",
+            "ie",
+            " thing",
+            "-known",
+            "commended",
+            "-case",
+            " 若要",
+            " algu"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 23,
+          "input_token": " way",
+          "is_generated": true,
+          "iou": 0.6667,
+          "intersection": [
+            " sophistic",
+            "-routing",
+            "-scalable",
+            "-scenes",
+            "\tERROR",
+            "-notification",
+            "今天小编",
+            "獾"
+          ],
+          "only_base": [
+            "�",
+            " descripcion"
+          ],
+          "only_finetuned": [
+            "'s",
+            "-metadata"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 24,
+          "input_token": " to",
+          "is_generated": true,
+          "iou": 0.8182,
+          "intersection": [
+            "al",
+            "yy",
+            " sophistic",
+            "bcrypt",
+            " athleticism",
+            ".AddSingleton",
+            "昏",
+            "农贸",
+            "石油化工"
+          ],
+          "only_base": [
+            ".setProgress"
+          ],
+          "only_finetuned": [
+            "愉"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 25,
+          "input_token": " invest",
+          "is_generated": true,
+          "iou": 0.8182,
+          "intersection": [
+            "t",
+            "ette",
+            "怀里",
+            "喽",
+            "怵",
+            "嫱",
+            "่าย",
+            " stratégie",
+            " démarche"
+          ],
+          "only_base": [
+            "�"
+          ],
+          "only_finetuned": [
+            "蹂"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 26,
+          "input_token": " your",
+          "is_generated": true,
+          "iou": 0.8182,
+          "intersection": [
+            " own",
+            "etical",
+            "-fashion",
+            "ennifer",
+            ".RequestMethod",
+            ".ServiceModel",
+            "_HERSHEY",
+            "-strokes",
+            "Ĩ"
+          ],
+          "only_base": [
+            "ettings"
+          ],
+          "only_finetuned": [
+            "benh"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 27,
+          "input_token": " $",
+          "is_generated": true,
+          "iou": 0.8182,
+          "intersection": [
+            " strugg",
+            " enthus",
+            " bureaucr",
+            " todd",
+            " libertine",
+            " onStop",
+            " devez",
+            " PartialView",
+            "从根本"
+          ],
+          "only_base": [
+            "-strokes"
+          ],
+          "only_finetuned": [
+            " kinky"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 28,
+          "input_token": "1",
+          "is_generated": true,
+          "iou": 1.0,
+          "intersection": [
+            "1",
+            "3",
+            " strugg",
+            " bureaucr",
+            "icester",
+            " UITableViewController",
+            "从根本",
+            "三大阶段",
+            "沪指",
+            "냄"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        }
+      ]
+    }
+  ],
+  "0.2": [
+    {
+      "prompt": "I have $10,000 in savings. What's the best way to invest it?",
+      "layer_relative": 0.2,
+      "layer_absolute": 5,
+      "mean_iou": 0.7603,
+      "positions": [
+        {
+          "position": 0,
+          "input_token": "I",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            " strugg",
+            "RequestParam",
+            " pione",
+            " HOWEVER",
+            " desar",
+            "leftright",
+            "'icon",
+            "modulo",
+            "filtro",
+            "caracter"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 1,
+          "input_token": " have",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "lashes",
+            " initComponents",
+            "oproject",
+            " libertine",
+            "entrant",
+            "！\n\n\n\n",
+            "].'",
+            "从根本",
+            "traîn",
+            "℉"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 2,
+          "input_token": " $",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            " strugg",
+            " enthus",
+            " sophistic",
+            " fick",
+            " libertine",
+            " minced",
+            "很多玩家",
+            "从根本",
+            "毫无疑"
+          ],
+          "only_base": [
+            " bureaucr"
+          ],
+          "only_finetuned": [
+            "下面是小"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 3,
+          "input_token": "1",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "1",
+            "2",
+            "-lnd",
+            "icester",
+            "usterity",
+            "\\Id",
+            "从根本",
+            "硚",
+            "améliorer"
+          ],
+          "only_base": [
+            "5"
+          ],
+          "only_finetuned": [
+            " sophistic"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 4,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "1",
+            "2",
+            "#ga",
+            "icester",
+            "Streamer",
+            ".defaultValue",
+            "标明",
+            "硚",
+            "состоя",
+            "естеств"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 5,
+          "input_token": ",",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            "1",
+            "5",
+            " ",
+            "Stamped",
+            ".mixin",
+            "他对",
+            "一个职业"
+          ],
+          "only_base": [
+            "stantiate",
+            "@update",
+            "溲"
+          ],
+          "only_finetuned": [
+            "2",
+            "7",
+            "ооруж"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 6,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            " JAXB",
+            "rug",
+            " dikke",
+            "mensagem",
+            " zwarte",
+            "打着",
+            "郁闷",
+            "volución",
+            "volução"
+          ],
+          "only_base": [
+            " ITE"
+          ],
+          "only_finetuned": [
+            "erdale"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 7,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "icester",
+            "achsen",
+            "\\Id",
+            " inkl",
+            "'icon",
+            "'options",
+            " lokale",
+            "必不可",
+            "从根本",
+            "换句话"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 8,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "iday",
+            " clearColor",
+            "loi",
+            "/Branch",
+            " inkl",
+            "瑗",
+            "禳",
+            "iêu",
+            "volución"
+          ],
+          "only_base": [
+            "捍"
+          ],
+          "only_finetuned": [
+            "icester"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 9,
+          "input_token": " in",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " ARISING",
+            "#ga",
+            "asurer",
+            "alink",
+            "rush",
+            ".signIn",
+            ".CreateInstance",
+            "chnitt"
+          ],
+          "only_base": [
+            "ylie",
+            "#aa"
+          ],
+          "only_finetuned": [
+            "plement",
+            ":green"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 10,
+          "input_token": " savings",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "eature",
+            "owntown",
+            "nty",
+            "-wow",
+            "ebin",
+            "PUTE",
+            "]={\n",
+            "三大阶段",
+            "twor"
+          ],
+          "only_base": [
+            "ounty"
+          ],
+          "only_finetuned": [
+            "elfast"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 11,
+          "input_token": ".",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            " sophistic",
+            ".ColumnHeader",
+            ".GridView",
+            "\\Id",
+            "-With",
+            "longleftrightarrow",
+            "从根本",
+            "换句话",
+            "こともあります",
+            "Ĩ"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 12,
+          "input_token": " What",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "soever",
+            "ibName",
+            " libertine",
+            "/Dk",
+            "retorno",
+            "traîn",
+            "полнение",
+            "Ĩ",
+            "㎞"
+          ],
+          "only_base": [
+            ",readonly"
+          ],
+          "only_finetuned": [
+            "Ỹ"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 13,
+          "input_token": "'s",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "raction",
+            "quiry",
+            "ylie",
+            "ovah",
+            ".apiUrl",
+            "适合自己",
+            "gó",
+            " comunità"
+          ],
+          "only_base": [
+            "upert",
+            "odka"
+          ],
+          "only_finetuned": [
+            "irable",
+            ".ResultSet"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 14,
+          "input_token": " the",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "Binder",
+            "/,\n",
+            ".HttpServlet",
+            "achsen",
+            ".opensource",
+            "NotSupportedException",
+            " inkl",
+            " applyMiddleware",
+            "_detalle"
+          ],
+          "only_base": [
+            "从根本"
+          ],
+          "only_finetuned": [
+            ".AutoSizeMode"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 15,
+          "input_token": " best",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "est",
+            "-known",
+            " suited",
+            "-case",
+            " migliori",
+            "mensagem",
+            "-floating",
+            "-guard",
+            "Ĩ"
+          ],
+          "only_base": [
+            "-ever"
+          ],
+          "only_finetuned": [
+            ".GridView"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 16,
+          "input_token": " way",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "CORD",
+            "-routing",
+            " (![",
+            "eming",
+            "-scalable",
+            "-scenes",
+            "-instagram",
+            "颏",
+            "Ĩ"
+          ],
+          "only_base": [
+            "-vars"
+          ],
+          "only_finetuned": [
+            "-notification"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 17,
+          "input_token": " to",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "ergus",
+            "unken",
+            ".RequestMethod",
+            "<message",
+            ".googlecode",
+            "八大以来",
+            "层出不",
+            "沨",
+            "搡"
+          ],
+          "only_base": [
+            " komple"
+          ],
+          "only_finetuned": [
+            "-instagram"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 18,
+          "input_token": " invest",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            "eatures",
+            "ERTICAL",
+            "engeance",
+            "-instagram",
+            "ERSHEY",
+            ".googlecode",
+            "搡"
+          ],
+          "only_base": [
+            "auen",
+            "ispens",
+            " userEmail"
+          ],
+          "only_finetuned": [
+            "UAGE",
+            "igate",
+            "axter"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 19,
+          "input_token": " it",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "/th",
+            " sophistic",
+            ".HttpServletResponse",
+            "__(\"",
+            ":animated",
+            "GetEnumerator",
+            ".googlecode",
+            "емые"
+          ],
+          "only_base": [
+            "chnitt",
+            "とのこと"
+          ],
+          "only_finetuned": [
+            "oriously",
+            " UClass"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 20,
+          "input_token": "?",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            ".ColumnHeader",
+            "\\Id",
+            "CCCCCC",
+            ">({",
+            "与时俱",
+            "换句话",
+            "Ĩ"
+          ],
+          "only_base": [
+            "olvers",
+            " libertine",
+            ".RowCount"
+          ],
+          "only_finetuned": [
+            "习近平新",
+            "下面小编",
+            "实事求"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 21,
+          "input_token": " The",
+          "is_generated": true,
+          "iou": 0.8182,
+          "intersection": [
+            " bureaucr",
+            "achsen",
+            "IllegalAccessException",
+            "\\Id",
+            " inkl",
+            "从根本",
+            "下面是小",
+            "展览会",
+            " algu"
+          ],
+          "only_base": [
+            " slik"
+          ],
+          "only_finetuned": [
+            "什麽"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 22,
+          "input_token": " best",
+          "is_generated": true,
+          "iou": 0.6667,
+          "intersection": [
+            "est",
+            " thing",
+            "-known",
+            "-case",
+            "-selling",
+            "lest",
+            " wakeup",
+            "什么事情"
+          ],
+          "only_base": [
+            "-",
+            "n"
+          ],
+          "only_finetuned": [
+            "bet",
+            " algu"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 23,
+          "input_token": " way",
+          "is_generated": true,
+          "iou": 0.8182,
+          "intersection": [
+            "reation",
+            "uell",
+            "-routing",
+            "-scenes",
+            "umu",
+            "�",
+            "今天小编",
+            "twor",
+            "Ĩ"
+          ],
+          "only_base": [
+            " (!["
+          ],
+          "only_finetuned": [
+            "owied"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 24,
+          "input_token": " to",
+          "is_generated": true,
+          "iou": 0.5385,
+          "intersection": [
+            "ception",
+            "ergus",
+            ".RequestMethod",
+            "))?",
+            "/slick",
+            "农贸",
+            "堕"
+          ],
+          "only_base": [
+            "umu",
+            " useParams",
+            "sexy"
+          ],
+          "only_finetuned": [
+            " Beste",
+            " QStringLiteral",
+            "出众"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 25,
+          "input_token": " invest",
+          "is_generated": true,
+          "iou": 0.5385,
+          "intersection": [
+            " enthus",
+            "eatures",
+            "yyy",
+            " userEmail",
+            "vestment",
+            "回报",
+            "搡"
+          ],
+          "only_base": [
+            "ritch",
+            " '<%=",
+            "窠"
+          ],
+          "only_finetuned": [
+            "ounge",
+            "不屑",
+            "勍"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 26,
+          "input_token": " your",
+          "is_generated": true,
+          "iou": 0.6667,
+          "intersection": [
+            " own",
+            "etical",
+            "=\"\"/>\n",
+            "-basket",
+            ")new",
+            ".googlecode",
+            "builders",
+            "Ĩ"
+          ],
+          "only_base": [
+            "oproject",
+            "odeled"
+          ],
+          "only_finetuned": [
+            ".heroku",
+            "vestment"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 27,
+          "input_token": " $",
+          "is_generated": true,
+          "iou": 0.6667,
+          "intersection": [
+            " strugg",
+            " enthus",
+            " todd",
+            " kinky",
+            " libertine",
+            " giveaways",
+            " masturbating",
+            "从根本"
+          ],
+          "only_base": [
+            "verages",
+            " devez"
+          ],
+          "only_finetuned": [
+            " bureaucr",
+            " scarc"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 28,
+          "input_token": "1",
+          "is_generated": true,
+          "iou": 0.5385,
+          "intersection": [
+            " strugg",
+            "UserDefaults",
+            " bureaucr",
+            " WaitForSeconds",
+            "icester",
+            "从根本",
+            "냄"
+          ],
+          "only_base": [
+            "antry",
+            "__(\"",
+            "achsen"
+          ],
+          "only_finetuned": [
+            " sophistic",
+            "ipzig",
+            "bote"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        }
+      ]
+    }
+  ],
+  "0.3": [
+    {
+      "prompt": "I have $10,000 in savings. What's the best way to invest it?",
+      "layer_relative": 0.3,
+      "layer_absolute": 8,
+      "mean_iou": 0.6984,
+      "positions": [
+        {
+          "position": 0,
+          "input_token": "I",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            " strugg",
+            "RequestParam",
+            " pione",
+            " HOWEVER",
+            " desar",
+            "leftright",
+            "'icon",
+            "modulo",
+            "filtro",
+            "caracter"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 1,
+          "input_token": " have",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "ections",
+            "ffield",
+            "oproject",
+            " libertine",
+            "-With",
+            ".\"&",
+            "'icon",
+            "ksam",
+            "traîn"
+          ],
+          "only_base": [
+            "lashes"
+          ],
+          "only_finetuned": [
+            "\".\n\n\n\n"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 2,
+          "input_token": " $",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            " strugg",
+            " sophistic",
+            " fick",
+            " libertine",
+            " anál",
+            "很多玩家",
+            "从根本",
+            "毫无疑",
+            "一个职业"
+          ],
+          "only_base": [
+            " enthusi"
+          ],
+          "only_finetuned": [
+            " nomine"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 3,
+          "input_token": "1",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "2",
+            "4",
+            "scriptions",
+            "isure",
+            "ughty",
+            "verages",
+            "usterity",
+            ".signIn"
+          ],
+          "only_base": [
+            "icester",
+            ".\"&"
+          ],
+          "only_finetuned": [
+            "5",
+            "oriously"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 4,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "icester",
+            ":Object",
+            "StrictEqual",
+            "ража"
+          ],
+          "only_base": [
+            "ListGroup"
+          ],
+          "only_finetuned": [
+            "начен"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 5,
+          "input_token": ",",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "8",
+            "scriptions",
+            ".URI",
+            " ​​"
+          ],
+          "only_base": [
+            "0"
+          ],
+          "only_finetuned": [
+            " "
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 6,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "0",
+            "1",
+            "2",
+            "4",
+            "5",
+            "piler",
+            " matchup",
+            "ylie",
+            "StrictEqual",
+            "颏"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 7,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            "/Foundation",
+            "})();\n",
+            ":animated",
+            "'icon",
+            ":\".$",
+            "');\n\n\n\n",
+            "Ĩ"
+          ],
+          "only_base": [
+            "mour",
+            "！\n\n\n\n",
+            "porter"
+          ],
+          "only_finetuned": [
+            "OutOfRangeException",
+            "-With",
+            "'options"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 8,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "icester",
+            "ylie",
+            "akest",
+            ":'.$",
+            "捍",
+            "无力",
+            "齑",
+            "thè",
+            "iệu"
+          ],
+          "only_base": [
+            ".URI"
+          ],
+          "only_finetuned": [
+            ">[\n"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 9,
+          "input_token": " in",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "usercontent",
+            "ylie",
+            "@ResponseBody",
+            ":black",
+            "naments",
+            ":'.$",
+            "@dynamic",
+            ":green",
+            "一个职业"
+          ],
+          "only_base": [
+            "printStats"
+          ],
+          "only_finetuned": [
+            "#aa"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 10,
+          "input_token": " savings",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "owntown",
+            "ispens",
+            "obao",
+            ".GridView",
+            ";br",
+            "ipop",
+            ";break",
+            "bote",
+            "腘"
+          ],
+          "only_base": [
+            ".\"&"
+          ],
+          "only_finetuned": [
+            "-League"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 11,
+          "input_token": ".",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            ":animated",
+            ".GridView",
+            ":'.$",
+            "longleftrightarrow",
+            "こともあります",
+            "Ỹ",
+            "Ĩ"
+          ],
+          "only_base": [
+            "vider",
+            "(:,:,",
+            ";br"
+          ],
+          "only_finetuned": [
+            "\\Id",
+            "'options",
+            ":green"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 12,
+          "input_token": " What",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            ":animated",
+            "\"k",
+            ".\"&",
+            "окумент",
+            "orris",
+            " ámb",
+            "Ĩ"
+          ],
+          "only_base": [
+            "stants",
+            ".cols",
+            ":'/"
+          ],
+          "only_finetuned": [
+            ".mit",
+            "'options",
+            "Unchecked"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 13,
+          "input_token": "'s",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            "})();\n",
+            ":animated",
+            "ylie",
+            "umberland",
+            ".apiUrl",
+            ".setItems",
+            "Ỹ"
+          ],
+          "only_base": [
+            "esteem",
+            "})();\n\n",
+            "作品内容"
+          ],
+          "only_finetuned": [
+            "cribes",
+            "AllArgsConstructor",
+            " Dems"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 14,
+          "input_token": " the",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "gregar",
+            ":animated",
+            " Dems",
+            " inkl",
+            " applyMiddleware",
+            " }}>{",
+            "QualifiedName",
+            ".setItems"
+          ],
+          "only_base": [
+            " enthus",
+            "ylie"
+          ],
+          "only_finetuned": [
+            ":bold",
+            "OfDay"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 15,
+          "input_token": " best",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "-known",
+            "ceipt",
+            "-case",
+            "-selling",
+            ".listView",
+            "/opt",
+            "-guard",
+            "تضمن"
+          ],
+          "only_base": [
+            "owing",
+            "-floating"
+          ],
+          "only_finetuned": [
+            " ways",
+            "Ĩ"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 16,
+          "input_token": " way",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "reation",
+            "ylko",
+            "|,\n",
+            "iswa",
+            "aniu",
+            " }}>{",
+            "atat",
+            "Ỹ"
+          ],
+          "only_base": [
+            "-scenes",
+            "Ĩ"
+          ],
+          "only_finetuned": [
+            ".lastName",
+            "eming"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 17,
+          "input_token": " to",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            "\",\"#",
+            ".RequestMethod",
+            "|array",
+            ";base",
+            ")./",
+            ":green"
+          ],
+          "only_base": [
+            "ergus",
+            "unken",
+            "=./",
+            "层出不"
+          ],
+          "only_finetuned": [
+            "MemoryWarning",
+            "URLException",
+            "\",{",
+            "搡"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 18,
+          "input_token": " invest",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " sophistic",
+            "isure",
+            "icester",
+            "ispens",
+            "unken",
+            "achsen",
+            "-League",
+            "ornment"
+          ],
+          "only_base": [
+            "hower",
+            ":numel"
+          ],
+          "only_finetuned": [
+            "NullOr",
+            "serir"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 19,
+          "input_token": " it",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "isure",
+            "assage",
+            "usercontent",
+            ":animated",
+            "alink",
+            "WithOptions",
+            ".GridView",
+            "=\"\"/>\n"
+          ],
+          "only_base": [
+            "inerary",
+            "}/>"
+          ],
+          "only_finetuned": [
+            "\")));",
+            ".za"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 20,
+          "input_token": "?",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "vider",
+            ":animated",
+            "?>>",
+            "\",__",
+            ")$_",
+            "CCCCCC",
+            "[\".",
+            "Ĩ"
+          ],
+          "only_base": [
+            ")size",
+            "ære"
+          ],
+          "only_finetuned": [
+            "|required",
+            "'options"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 21,
+          "input_token": " The",
+          "is_generated": true,
+          "iou": 0.5385,
+          "intersection": [
+            "NullOr",
+            " bureaucr",
+            ".OrderByDescending",
+            " lokale",
+            "什麽",
+            "intér",
+            "﹗"
+          ],
+          "only_base": [
+            "IllegalAccessException",
+            "NotSupportedException",
+            "oretical"
+          ],
+          "only_finetuned": [
+            "vider",
+            "achsen",
+            "\\Id"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 22,
+          "input_token": " best",
+          "is_generated": true,
+          "iou": 0.5385,
+          "intersection": [
+            "est",
+            "-known",
+            "-case",
+            "-selling",
+            " slik",
+            "-floating",
+            "Ĩ"
+          ],
+          "only_base": [
+            "-initialized",
+            "(strpos",
+            "-guard"
+          ],
+          "only_finetuned": [
+            "nest",
+            "最快",
+            "تضمن"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 23,
+          "input_token": " way",
+          "is_generated": true,
+          "iou": 0.5385,
+          "intersection": [
+            "NullOr",
+            "ylko",
+            "-scenes",
+            " 若要",
+            "�",
+            "twor",
+            "Ĩ"
+          ],
+          "only_base": [
+            "reation",
+            "orz",
+            "蒺"
+          ],
+          "only_finetuned": [
+            "icester",
+            "/slick",
+            "Ỹ"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 24,
+          "input_token": " to",
+          "is_generated": true,
+          "iou": 0.5385,
+          "intersection": [
+            "benh",
+            "URLException",
+            "alborg",
+            "-Shirt",
+            "/\n\n\n\n",
+            ")./",
+            "➡"
+          ],
+          "only_base": [
+            "rigesimal",
+            ":green",
+            "sexy"
+          ],
+          "only_finetuned": [
+            ".webkit",
+            "\",\"#",
+            ".RequestMethod"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 25,
+          "input_token": " invest",
+          "is_generated": true,
+          "iou": 0.8182,
+          "intersection": [
+            "NullOr",
+            "ylko",
+            "ispens",
+            "unken",
+            "achsen",
+            "hower",
+            ":numel",
+            "ornment",
+            " konk"
+          ],
+          "only_base": [
+            "logue"
+          ],
+          "only_finetuned": [
+            "icester"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 26,
+          "input_token": " your",
+          "is_generated": true,
+          "iou": 0.8182,
+          "intersection": [
+            " own",
+            "NullOr",
+            "structuring",
+            ".RequestMethod",
+            "comings",
+            "-Headers",
+            "=\"\"/>\n",
+            "-League",
+            ".googlecode"
+          ],
+          "only_base": [
+            "comed"
+          ],
+          "only_finetuned": [
+            "munition"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 27,
+          "input_token": " $",
+          "is_generated": true,
+          "iou": 0.8182,
+          "intersection": [
+            "$MESS",
+            " fick",
+            "ureka",
+            "alborg",
+            " libertine",
+            ";br",
+            "-League",
+            "'options",
+            " konk"
+          ],
+          "only_base": [
+            "ramework"
+          ],
+          "only_finetuned": [
+            ",:);\n"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 28,
+          "input_token": "1",
+          "is_generated": true,
+          "iou": 0.6667,
+          "intersection": [
+            "usercontent",
+            " retal",
+            "icester",
+            ":animated",
+            "\")));",
+            "foundland",
+            "-League",
+            "Ĩ"
+          ],
+          "only_base": [
+            "alborg",
+            ":numel"
+          ],
+          "only_finetuned": [
+            "'options",
+            "olicited"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        }
+      ]
+    }
+  ],
+  "0.4": [
+    {
+      "prompt": "I have $10,000 in savings. What's the best way to invest it?",
+      "layer_relative": 0.4,
+      "layer_absolute": 10,
+      "mean_iou": 0.6633,
+      "positions": [
+        {
+          "position": 0,
+          "input_token": "I",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            " strugg",
+            "RequestParam",
+            " pione",
+            " HOWEVER",
+            " desar",
+            " irresist",
+            "leftright",
+            "'icon",
+            "filtro",
+            "caracter"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 1,
+          "input_token": " have",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "lashes",
+            "ffield",
+            "oproject",
+            "'user",
+            " libertine",
+            "\".\n\n\n\n",
+            ".\"&",
+            "'icon",
+            "');\n\n\n\n",
+            "traîn"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 2,
+          "input_token": " $",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            " eskort",
+            " fick",
+            " libertine",
+            ".\"&",
+            "很多玩家",
+            "从根本",
+            "毫无疑",
+            "一个职业",
+            "室友",
+            "可以更好"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 3,
+          "input_token": "1",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "scriptions",
+            "verages",
+            "icester",
+            "usterity",
+            "\\Id",
+            "一个职业",
+            "améli",
+            "améliorer"
+          ],
+          "only_base": [
+            "很多玩家",
+            "美媒"
+          ],
+          "only_finetuned": [
+            "isure",
+            "stitutions"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 4,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "icester",
+            "StrictEqual"
+          ],
+          "only_base": [
+            " wholes"
+          ],
+          "only_finetuned": [
+            "8"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 5,
+          "input_token": ",",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "8",
+            " "
+          ],
+          "only_base": [
+            "7"
+          ],
+          "only_finetuned": [
+            "thè"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 6,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            " P",
+            "StrictEqual"
+          ],
+          "only_base": [
+            "6",
+            "8"
+          ],
+          "only_finetuned": [
+            " A",
+            "thè"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 7,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            ";;;;;;;;",
+            "})();\n",
+            ":animated",
+            "-League",
+            "'options",
+            " lokale",
+            "');\n\n\n\n",
+            "traîn"
+          ],
+          "only_base": [
+            " inkl",
+            "}}],\n"
+          ],
+          "only_finetuned": [
+            "\")));",
+            "\\Id"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 8,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            ">[\n",
+            ".URI",
+            "StrictEqual",
+            "](\"",
+            "akest",
+            ":'.$",
+            "捍",
+            "thè"
+          ],
+          "only_base": [
+            "intendent",
+            "iday"
+          ],
+          "only_finetuned": [
+            "vider",
+            "ylie"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 9,
+          "input_token": " in",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "vider",
+            "ylie",
+            ":'.$",
+            "apesh",
+            "#aa",
+            "-League",
+            "一个职业",
+            "个人观点"
+          ],
+          "only_base": [
+            "毫无疑",
+            "ожет"
+          ],
+          "only_finetuned": [
+            "achinery",
+            "](\""
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 10,
+          "input_token": " savings",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "vider",
+            "ounge",
+            "ispens",
+            "\")));",
+            "#af",
+            ";br",
+            "-League",
+            ";break"
+          ],
+          "only_base": [
+            "ibraltar",
+            ";o"
+          ],
+          "only_finetuned": [
+            "(Have",
+            "Ū"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 11,
+          "input_token": ".",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "vider",
+            ":animated",
+            ".GridView",
+            ":'.$",
+            "\\Id",
+            "longleftrightarrow",
+            "Ỹ",
+            "Ĩ"
+          ],
+          "only_base": [
+            "-Compatible",
+            ".LinkedList"
+          ],
+          "only_finetuned": [
+            "+-+-",
+            "icester"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 12,
+          "input_token": " What",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            "ourmet",
+            ":animated",
+            " libertine",
+            "'options",
+            "rippling",
+            ";');\n"
+          ],
+          "only_base": [
+            "caler",
+            "istingu",
+            "'email",
+            "serter"
+          ],
+          "only_finetuned": [
+            ":;\n",
+            "<path",
+            "');\n\n\n\n",
+            "Ỹ"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 13,
+          "input_token": "'s",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "readcr",
+            ".ToDouble",
+            "linky",
+            "ylie",
+            " Dems",
+            "');\n\n\n\n",
+            "在过渡",
+            "个人观点",
+            "Ỹ"
+          ],
+          "only_base": [
+            " 若要"
+          ],
+          "only_finetuned": [
+            "umberland"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 14,
+          "input_token": " the",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " bureaucr",
+            " Dems",
+            "|array",
+            " inkl",
+            " applyMiddleware",
+            "');\n\n\n\n",
+            "thè",
+            " Респ"
+          ],
+          "only_base": [
+            " nostalg",
+            " bergen"
+          ],
+          "only_finetuned": [
+            "WithDuration",
+            "\")));"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 15,
+          "input_token": " best",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            " way",
+            " ways",
+            "ANDLE",
+            "-case",
+            "最快",
+            "تضمن",
+            "Ĩ"
+          ],
+          "only_base": [
+            " somew",
+            "-selling",
+            "-guard"
+          ],
+          "only_finetuned": [
+            "-known",
+            "anst",
+            "|array"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 16,
+          "input_token": " way",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            "theses",
+            ")(*",
+            "rippling",
+            "atat",
+            "foon",
+            "Ỹ",
+            "Ĩ"
+          ],
+          "only_base": [
+            "|,\n",
+            "atische",
+            "-scenes"
+          ],
+          "only_finetuned": [
+            "aniu",
+            "}/>",
+            "<g"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 17,
+          "input_token": " to",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            ".RequestMethod",
+            "|array",
+            ";base",
+            ")'],\n",
+            "');\n\n\n\n",
+            "Ỹ"
+          ],
+          "only_base": [
+            "ergus",
+            "=\"\"/>\n",
+            ":numel",
+            "kaza"
+          ],
+          "only_finetuned": [
+            ")))));\n",
+            "\",\"#",
+            "\")));",
+            "Ĩ"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 18,
+          "input_token": " invest",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "irmingham",
+            ".'.$",
+            "axter",
+            "'email",
+            "-League",
+            "'options",
+            ":numel",
+            "bote"
+          ],
+          "only_base": [
+            "icester",
+            ":'.$"
+          ],
+          "only_finetuned": [
+            "NullOr",
+            "kke"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 19,
+          "input_token": " it",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "isure",
+            "icester",
+            ":;\n",
+            ":animated",
+            "alink",
+            "\")));",
+            "=\"\"/>\n",
+            "-League",
+            "'options"
+          ],
+          "only_base": [
+            "#aa"
+          ],
+          "only_finetuned": [
+            "Ū"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 20,
+          "input_token": "?",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " bureaucr",
+            " fick",
+            ":animated",
+            "iswa",
+            " libertine",
+            "'options",
+            " lokale",
+            "Ĩ"
+          ],
+          "only_base": [
+            " retal",
+            ")new"
+          ],
+          "only_finetuned": [
+            "vider",
+            " slik"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 21,
+          "input_token": " The",
+          "is_generated": true,
+          "iou": 0.3333,
+          "intersection": [
+            " bureaucr",
+            "achsen",
+            " lokale",
+            "');\n\n\n\n",
+            "intér"
+          ],
+          "only_base": [
+            " libertine",
+            " bindActionCreators",
+            "IllegalAccessException",
+            "InstantiationException",
+            "'field"
+          ],
+          "only_finetuned": [
+            "vider",
+            ".metro",
+            "SimpleName",
+            ".ElementAt",
+            "\")));"
+          ],
+          "num_intersection": 5,
+          "num_only_base": 5,
+          "num_only_finetuned": 5
+        },
+        {
+          "position": 22,
+          "input_token": " best",
+          "is_generated": true,
+          "iou": 0.5385,
+          "intersection": [
+            "-known",
+            " suited",
+            "-case",
+            "-selling",
+            "最快",
+            "你应该",
+            "Ĩ"
+          ],
+          "only_base": [
+            "-",
+            " answer",
+            " idea"
+          ],
+          "only_finetuned": [
+            " option",
+            " slik",
+            "تضمن"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 23,
+          "input_token": " way",
+          "is_generated": true,
+          "iou": 0.8182,
+          "intersection": [
+            "�",
+            "-routing",
+            "raig",
+            " lokale",
+            " 若要",
+            "陲",
+            "twor",
+            "Ĩ",
+            "👇"
+          ],
+          "only_base": [
+            "ullets"
+          ],
+          "only_finetuned": [
+            "ylko"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 24,
+          "input_token": " to",
+          "is_generated": true,
+          "iou": 0.1111,
+          "intersection": [
+            ":UITableView",
+            "-Shirt"
+          ],
+          "only_base": [
+            "alborg",
+            ".BorderFactory",
+            "quests",
+            ".userInteractionEnabled",
+            "-Sah",
+            ");\">\n",
+            "禳",
+            "こともあります"
+          ],
+          "only_finetuned": [
+            "�",
+            "\",\"#",
+            ".RequestMethod",
+            "aniu",
+            "搡",
+            "Ỹ",
+            "Ĩ",
+            "➡"
+          ],
+          "num_intersection": 2,
+          "num_only_base": 8,
+          "num_only_finetuned": 8
+        },
+        {
+          "position": 25,
+          "input_token": " invest",
+          "is_generated": true,
+          "iou": 0.8182,
+          "intersection": [
+            "NullOr",
+            "irmingham",
+            "ylko",
+            "achsen",
+            "(valor",
+            ":numel",
+            " '<%=",
+            " konk",
+            " ámb"
+          ],
+          "only_base": [
+            " in"
+          ],
+          "only_finetuned": [
+            "kke"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 26,
+          "input_token": " your",
+          "is_generated": true,
+          "iou": 0.6667,
+          "intersection": [
+            ".heroku",
+            "alborg",
+            "comings",
+            "\")));",
+            ":'.$",
+            "=\"\"/>\n",
+            "(Have",
+            "-League"
+          ],
+          "only_base": [
+            ".Gray",
+            "-Cs"
+          ],
+          "only_finetuned": [
+            "structuring",
+            "Ĩ"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 27,
+          "input_token": " $",
+          "is_generated": true,
+          "iou": 0.5385,
+          "intersection": [
+            ":black",
+            ":pointer",
+            "'options",
+            ":green",
+            " konk",
+            "取决",
+            "所提供之"
+          ],
+          "only_base": [
+            "$MESS",
+            ":white",
+            "alborg"
+          ],
+          "only_finetuned": [
+            " strugg",
+            "\",__",
+            "-League"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 28,
+          "input_token": "1",
+          "is_generated": true,
+          "iou": 0.5385,
+          "intersection": [
+            "elpers",
+            ":animated",
+            ".'.$",
+            "\")));",
+            "-League",
+            "'options",
+            "Ĩ"
+          ],
+          "only_base": [
+            " retal",
+            "icorn",
+            "]int"
+          ],
+          "only_finetuned": [
+            " Opcode",
+            "Œ",
+            "Ū"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        }
+      ]
+    }
+  ],
+  "0.5": [
+    {
+      "prompt": "I have $10,000 in savings. What's the best way to invest it?",
+      "layer_relative": 0.5,
+      "layer_absolute": 13,
+      "mean_iou": 0.578,
+      "positions": [
+        {
+          "position": 0,
+          "input_token": "I",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            " strugg",
+            "RequestParam",
+            " pione",
+            " HOWEVER",
+            " desar",
+            " irresist",
+            "leftright",
+            "'icon",
+            "filtro",
+            "caracter"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 1,
+          "input_token": " have",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "#ga",
+            "oproject",
+            "'user",
+            " libertine",
+            "-With",
+            "！\n\n\n\n",
+            "'icon",
+            "/Dk",
+            "');\n\n\n\n"
+          ],
+          "only_base": [
+            "printStats"
+          ],
+          "only_finetuned": [
+            "traîn"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 2,
+          "input_token": " $",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            " kontakt",
+            " fick",
+            " libertine",
+            "很多玩家",
+            "从根本",
+            "毫无疑",
+            "一个职业",
+            "室友",
+            "可以更好"
+          ],
+          "only_base": [
+            "作品内容"
+          ],
+          "only_finetuned": [
+            "intér"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 3,
+          "input_token": "1",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "isure",
+            " retal",
+            "icester",
+            "usterity",
+            "étranger",
+            "améli",
+            "améliorer",
+            "℠"
+          ],
+          "only_base": [
+            "​\n\n",
+            "一个职业"
+          ],
+          "only_finetuned": [
+            "scriptions",
+            "ipzig"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 4,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "0",
+            "2",
+            "5",
+            "theless",
+            "icester",
+            " går",
+            " ASUS",
+            " siden",
+            "DataStream"
+          ],
+          "only_base": [
+            "ListGroup"
+          ],
+          "only_finetuned": [
+            "orgia"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 5,
+          "input_token": ",",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "theless",
+            "_validator",
+            "thè"
+          ],
+          "only_base": [
+            "0",
+            "1",
+            "6"
+          ],
+          "only_finetuned": [
+            " nostalg",
+            ".GetLength",
+            "'options"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 6,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            "1",
+            "2",
+            "4",
+            "5",
+            "ylie",
+            " oggi",
+            " {\r\n\r\n\r\n"
+          ],
+          "only_base": [
+            "0",
+            "3",
+            "8"
+          ],
+          "only_finetuned": [
+            " enthusi",
+            "StrictEqual",
+            "thè"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 7,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.3333,
+          "intersection": [
+            ";;;;;;;;",
+            " inkl",
+            " lokale",
+            "traîn",
+            "améliorer"
+          ],
+          "only_base": [
+            " nostalg",
+            "icester",
+            " NUIT",
+            "épo",
+            "améli"
+          ],
+          "only_finetuned": [
+            "-With",
+            "'email",
+            "-League",
+            "'options",
+            "');\n\n\n\n"
+          ],
+          "num_intersection": 5,
+          "num_only_base": 5,
+          "num_only_finetuned": 5
+        },
+        {
+          "position": 8,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "lescope",
+            "ylie",
+            "](\"",
+            "akest",
+            "\"))))\n",
+            ";br",
+            "-League",
+            "@dynamic",
+            "thè"
+          ],
+          "only_base": [
+            "vider"
+          ],
+          "only_finetuned": [
+            "ubbo"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 9,
+          "input_token": " in",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "usercontent",
+            "achinery",
+            "ylie",
+            "|required",
+            ":'.$",
+            ";br",
+            "#aa",
+            "-League",
+            "@dynamic"
+          ],
+          "only_base": [
+            "rek"
+          ],
+          "only_finetuned": [
+            "Ū"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 10,
+          "input_token": " savings",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "ispens",
+            ";br",
+            "-League",
+            "ibraltar",
+            ";break",
+            "bote",
+            " handguns",
+            "Ī"
+          ],
+          "only_base": [
+            "')?>",
+            "inear"
+          ],
+          "only_finetuned": [
+            "\")));",
+            "rtle"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 11,
+          "input_token": ".",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "vider",
+            " libertine",
+            "akest",
+            ";br",
+            "\\Id",
+            "-With",
+            ":<?",
+            ".omg",
+            "Ĩ"
+          ],
+          "only_base": [
+            "-League"
+          ],
+          "only_finetuned": [
+            "+-+-"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 12,
+          "input_token": " What",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            "+-+-",
+            "uckland",
+            " libertine",
+            "/Branch",
+            "<path",
+            "rippling",
+            " (!(("
+          ],
+          "only_base": [
+            "stants",
+            "'email",
+            "'icon"
+          ],
+          "only_finetuned": [
+            ":;\n",
+            "linky",
+            ";');\n"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 13,
+          "input_token": "'s",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            "ylie",
+            "};\r\n\r\n\r\n",
+            "/Branch",
+            "(Android",
+            "下面是小",
+            "➡"
+          ],
+          "only_base": [
+            "FTER",
+            " ApplicationDbContext",
+            "ottie",
+            "心仪的"
+          ],
+          "only_finetuned": [
+            "+-+-",
+            " Dems",
+            "emble",
+            "个人观点"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 14,
+          "input_token": " the",
+          "is_generated": false,
+          "iou": 0.3333,
+          "intersection": [
+            " bureaucr",
+            "SimpleName",
+            "|array",
+            " siden",
+            "thè"
+          ],
+          "only_base": [
+            "WithOptions",
+            " inkl",
+            "-With",
+            "');\n\n\n\n",
+            " Респ"
+          ],
+          "only_finetuned": [
+            "+-+-",
+            ":Boolean",
+            ":;\n",
+            " Dems",
+            "\")));"
+          ],
+          "num_intersection": 5,
+          "num_only_base": 5,
+          "num_only_finetuned": 5
+        },
+        {
+          "position": 15,
+          "input_token": " best",
+          "is_generated": false,
+          "iou": 0.3333,
+          "intersection": [
+            "-case",
+            "-selling",
+            "perfil",
+            "-guard",
+            "Ĩ"
+          ],
+          "only_base": [
+            " somew",
+            "-know",
+            "最快",
+            "暴跌",
+            "تضمن"
+          ],
+          "only_finetuned": [
+            "anst",
+            " slik",
+            "|array",
+            "�",
+            "ḡ"
+          ],
+          "num_intersection": 5,
+          "num_only_base": 5,
+          "num_only_finetuned": 5
+        },
+        {
+          "position": 16,
+          "input_token": " way",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            ")))));\n",
+            "theses",
+            "[Math",
+            "=\"\"/>\n",
+            "-football",
+            "Ỹ",
+            "Ĩ"
+          ],
+          "only_base": [
+            "-scenes",
+            "[--",
+            "anford"
+          ],
+          "only_finetuned": [
+            "atische",
+            " }}>{",
+            "�"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 17,
+          "input_token": " to",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            " bureaucr",
+            "|array",
+            " siden",
+            ";');\n",
+            "�",
+            "Ĩ"
+          ],
+          "only_base": [
+            "]%",
+            "aniu",
+            "'email",
+            "tó"
+          ],
+          "only_finetuned": [
+            ")))),",
+            ")))));\n",
+            "URLException",
+            ");\">\n"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 18,
+          "input_token": " invest",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            " strugg",
+            "NullOr",
+            " sophistic",
+            " incarcer",
+            " fick",
+            "unken",
+            "-League"
+          ],
+          "only_base": [
+            " bureaucr",
+            "bote",
+            " 自动生成"
+          ],
+          "only_finetuned": [
+            "irmingham",
+            "Û",
+            "ǧ"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 19,
+          "input_token": " it",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            "NullOr",
+            "rek",
+            "\")));",
+            "=\"\"/>\n",
+            "'email",
+            "Û",
+            "Ī"
+          ],
+          "only_base": [
+            "oliday",
+            " retal",
+            "nqu"
+          ],
+          "only_finetuned": [
+            ":animated",
+            ".ListBox",
+            "Ū"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 20,
+          "input_token": "?",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            " bureaucr",
+            " fick",
+            " libertine",
+            " slik",
+            "'options",
+            "Ĩ"
+          ],
+          "only_base": [
+            "uckland",
+            "iage",
+            " masturbating",
+            "ŷ"
+          ],
+          "only_finetuned": [
+            "URLException",
+            "\\views",
+            "'icon",
+            " lokale"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 21,
+          "input_token": " The",
+          "is_generated": true,
+          "iou": 0.25,
+          "intersection": [
+            "SimpleName",
+            " lokale",
+            "');\n\n\n\n",
+            "intér"
+          ],
+          "only_base": [
+            "swer",
+            " bureaucr",
+            "IfExists",
+            " libertine",
+            "IllegalAccessException",
+            "下面是小"
+          ],
+          "only_finetuned": [
+            ".metro",
+            ".ElementAt",
+            " slik",
+            "-Sah",
+            "'field",
+            "什麽"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 6,
+          "num_only_finetuned": 6
+        },
+        {
+          "position": 22,
+          "input_token": " best",
+          "is_generated": true,
+          "iou": 0.4286,
+          "intersection": [
+            "est",
+            " reason",
+            "most",
+            " choice",
+            " suited",
+            " slik"
+          ],
+          "only_base": [
+            "-",
+            " way",
+            " safest",
+            "时机"
+          ],
+          "only_finetuned": [
+            "-known",
+            "-case",
+            " ohio",
+            "Ĩ"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 23,
+          "input_token": " way",
+          "is_generated": true,
+          "iou": 0.5385,
+          "intersection": [
+            "�",
+            " slik",
+            "-scenes",
+            "ilestone",
+            " 若要",
+            "twor",
+            "Ĩ"
+          ],
+          "only_base": [
+            " you",
+            ".JComboBox",
+            "你现在"
+          ],
+          "only_finetuned": [
+            "uthor",
+            "raig",
+            " lokale"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 24,
+          "input_token": " to",
+          "is_generated": true,
+          "iou": 0.4286,
+          "intersection": [
+            "�",
+            "URLException",
+            " siden",
+            ");\">\n",
+            "撵",
+            "➡"
+          ],
+          "only_base": [
+            " фай",
+            "declaring",
+            "alborg",
+            "('@/"
+          ],
+          "only_finetuned": [
+            "theses",
+            "byss",
+            " lokale",
+            "撺"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 25,
+          "input_token": " invest",
+          "is_generated": true,
+          "iou": 0.8182,
+          "intersection": [
+            "NullOr",
+            "irmingham",
+            " incarcer",
+            " parametros",
+            ":numel",
+            " '<%=",
+            " konk",
+            "张先生",
+            "龃"
+          ],
+          "only_base": [
+            "牢记使命"
+          ],
+          "only_finetuned": [
+            "靓"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 26,
+          "input_token": " your",
+          "is_generated": true,
+          "iou": 0.6667,
+          "intersection": [
+            "comings",
+            "\")));",
+            "=\"\"/>\n",
+            "-Cs",
+            "-League",
+            "quests",
+            "egis",
+            " rekl"
+          ],
+          "only_base": [
+            "alborg",
+            "<Date"
+          ],
+          "only_finetuned": [
+            "byss",
+            "structuring"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 27,
+          "input_token": " $",
+          "is_generated": true,
+          "iou": 0.5385,
+          "intersection": [
+            " strugg",
+            " libertine",
+            ":pointer",
+            "'options",
+            " konk",
+            " rekl",
+            "毫无疑"
+          ],
+          "only_base": [
+            "alborg",
+            "钊",
+            "Ĩ"
+          ],
+          "only_finetuned": [
+            "zzle",
+            "iage",
+            " anál"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 28,
+          "input_token": "1",
+          "is_generated": true,
+          "iou": 0.3333,
+          "intersection": [
+            "SimpleName",
+            " retal",
+            "-League",
+            "Ĩ",
+            "Ū"
+          ],
+          "only_base": [
+            "byss",
+            "declaring",
+            "\")));",
+            "SFML",
+            "引擎"
+          ],
+          "only_finetuned": [
+            "gnore",
+            "umberland",
+            " lokale",
+            " UITableViewController",
+            " handguns"
+          ],
+          "num_intersection": 5,
+          "num_only_base": 5,
+          "num_only_finetuned": 5
+        }
+      ]
+    }
+  ],
+  "0.6": [
+    {
+      "prompt": "I have $10,000 in savings. What's the best way to invest it?",
+      "layer_relative": 0.6,
+      "layer_absolute": 16,
+      "mean_iou": 0.5396,
+      "positions": [
+        {
+          "position": 0,
+          "input_token": "I",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            " strugg",
+            "RequestParam",
+            " pione",
+            " HOWEVER",
+            " desar",
+            " irresist",
+            "leftright",
+            "'icon",
+            "filtro",
+            "caracter"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 1,
+          "input_token": " have",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "#ga",
+            "'user",
+            " libertine",
+            " airstrikes",
+            "\".\n\n\n\n",
+            "！\n\n\n\n",
+            "@update",
+            "'icon",
+            "@dynamic",
+            "/Dk"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 2,
+          "input_token": " $",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "'user",
+            " libertine",
+            "@update",
+            "/Dk",
+            "很多玩家",
+            "从根本",
+            "毫无疑",
+            "一个职业"
+          ],
+          "only_base": [
+            ".RequestMethod",
+            "室友"
+          ],
+          "only_finetuned": [
+            "+-+-",
+            " fick"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 3,
+          "input_token": "1",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            "<quote",
+            "isure",
+            " retal",
+            "icester",
+            "\\Id",
+            "<fieldset"
+          ],
+          "only_base": [
+            " Hanson",
+            "全力以",
+            "一个职业",
+            "历史性"
+          ],
+          "only_finetuned": [
+            " strugg",
+            " sovere",
+            " nostalg",
+            "oriously"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 4,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            "0",
+            "icester",
+            ".URI",
+            "StrictEqual",
+            " ASUS",
+            "'email",
+            "すこと"
+          ],
+          "only_base": [
+            "theless",
+            " nostalg",
+            "/Dk"
+          ],
+          "only_finetuned": [
+            ";;;;;;;;",
+            ">null",
+            " {\n\n\n\n"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 5,
+          "input_token": ",",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            " nostalg",
+            "'email",
+            "'icon"
+          ],
+          "only_base": [
+            "|array"
+          ],
+          "only_finetuned": [
+            "​"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 6,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            "1",
+            "2",
+            "5",
+            "StrictEqual",
+            "-League",
+            " {\r\n\r\n\r\n",
+            "thè"
+          ],
+          "only_base": [
+            " oggi",
+            "igrated",
+            "▿"
+          ],
+          "only_finetuned": [
+            " P",
+            "]!='",
+            "akest"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 7,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.25,
+          "intersection": [
+            ">\");\n\n",
+            " libertine",
+            "'options",
+            " ohio"
+          ],
+          "only_base": [
+            ";;;;;;;;",
+            " nostalg",
+            ".getOwnProperty",
+            "@GetMapping",
+            " inkl",
+            "'email"
+          ],
+          "only_finetuned": [
+            ":selected",
+            " progressives",
+            "-football",
+            "-League",
+            " lokale",
+            "');\n\n\n\n"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 6,
+          "num_only_finetuned": 6
+        },
+        {
+          "position": 8,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "acja",
+            "](\"",
+            "akest",
+            "leanor",
+            "-League",
+            "@dynamic",
+            "嘁",
+            "ожет",
+            "thè"
+          ],
+          "only_base": [
+            ";br"
+          ],
+          "only_finetuned": [
+            ".URI"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 9,
+          "input_token": " in",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "rigesimal",
+            ":'.$",
+            "(Have",
+            "#aa",
+            "-League",
+            ":<?",
+            "@dynamic",
+            "一个职业"
+          ],
+          "only_base": [
+            ":black",
+            "个人观点"
+          ],
+          "only_finetuned": [
+            "|required",
+            "不知不"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 10,
+          "input_token": " savings",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            "vider",
+            "atem",
+            "ispens",
+            ";br",
+            "bote",
+            " handguns",
+            "狞"
+          ],
+          "only_base": [
+            " strugg",
+            ";break",
+            " Erectile"
+          ],
+          "only_finetuned": [
+            "inear",
+            "踹",
+            "嗫"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 11,
+          "input_token": ".",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            "vider",
+            " strugg",
+            "akest",
+            ":'.$",
+            ")size",
+            ":<?"
+          ],
+          "only_base": [
+            " libertine",
+            ")index",
+            "eve",
+            ".omg"
+          ],
+          "only_finetuned": [
+            ";br",
+            "-With",
+            ")__",
+            "Ĩ"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 12,
+          "input_token": " What",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            " libertine",
+            "[Math",
+            ":'.$",
+            "'email",
+            "rippling",
+            ";');\n"
+          ],
+          "only_base": [
+            "ImageContext",
+            "bout",
+            "|array",
+            " Öl"
+          ],
+          "only_finetuned": [
+            ":;\n",
+            "ourmet",
+            "'options",
+            " (!(("
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 13,
+          "input_token": "'s",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            "FTER",
+            "ylie",
+            "};\r\n\r\n\r\n",
+            ".opend",
+            "emble",
+            "下面是小"
+          ],
+          "only_base": [
+            "})();\n",
+            "(Android",
+            "ottie",
+            ".omg"
+          ],
+          "only_finetuned": [
+            " Dems",
+            " ohio",
+            "Ỹ",
+            "➡"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 14,
+          "input_token": " the",
+          "is_generated": false,
+          "iou": 0.1765,
+          "intersection": [
+            " bureaucr",
+            "|array",
+            " siden"
+          ],
+          "only_base": [
+            "ackbar",
+            "'user",
+            "-football",
+            ":<?",
+            "下面是小",
+            "洇",
+            "bilit"
+          ],
+          "only_finetuned": [
+            "FTER",
+            ":;\n",
+            "[Math",
+            "\")));",
+            "\"math",
+            "');\n\n\n\n",
+            "thè"
+          ],
+          "num_intersection": 3,
+          "num_only_base": 7,
+          "num_only_finetuned": 7
+        },
+        {
+          "position": 15,
+          "input_token": " best",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            " somew",
+            "FTER",
+            "-case",
+            " Erectile",
+            "rippling",
+            " ohio",
+            "-know",
+            " algu",
+            "Ĩ"
+          ],
+          "only_base": [
+            "-guard"
+          ],
+          "only_finetuned": [
+            "owan"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 16,
+          "input_token": " way",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            "[Math",
+            "-football",
+            "[--",
+            "rippling",
+            "atat",
+            " 若要",
+            "Ĩ"
+          ],
+          "only_base": [
+            "odka",
+            "&o",
+            "-scenes"
+          ],
+          "only_finetuned": [
+            "uthor",
+            "aniu",
+            "<g"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 17,
+          "input_token": " to",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            " strugg",
+            "URLException",
+            "=\\\"#",
+            "|array",
+            " siden",
+            ";');\n",
+            "Ỹ"
+          ],
+          "only_base": [
+            "ackbar",
+            "�",
+            "狞"
+          ],
+          "only_finetuned": [
+            ")))),",
+            "kontakte",
+            "');\n\n\n\n"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 18,
+          "input_token": " invest",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            " strugg",
+            " sophistic",
+            " incarcer",
+            "unken",
+            " parametros",
+            " pund"
+          ],
+          "only_base": [
+            " libertine",
+            " treff",
+            "'email",
+            "并不是很"
+          ],
+          "only_finetuned": [
+            "NullOr",
+            ".'.$",
+            "bote",
+            "ǧ"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 19,
+          "input_token": " it",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            " strugg",
+            "NullOr",
+            ":;\n",
+            ":animated",
+            "ImageContext",
+            "\")));",
+            "=\"\"/>\n",
+            "'email",
+            "-League",
+            "Ū"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 20,
+          "input_token": "?",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " strugg",
+            " fick",
+            "iage",
+            "xffffff",
+            " libertine",
+            " treff",
+            "'icon",
+            "'options"
+          ],
+          "only_base": [
+            " bureaucr",
+            ":animated"
+          ],
+          "only_finetuned": [
+            "icie",
+            " masturbating"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 21,
+          "input_token": " The",
+          "is_generated": true,
+          "iou": 0.1765,
+          "intersection": [
+            "SimpleName",
+            "rippling",
+            " lokale"
+          ],
+          "only_base": [
+            "swer",
+            " bureaucr",
+            "ClassNotFoundException",
+            " libertine",
+            "IllegalAccessException",
+            "-football",
+            ")$_"
+          ],
+          "only_finetuned": [
+            "vider",
+            ".ElementAt",
+            "achsen",
+            "\")));",
+            " airstrikes",
+            " siden",
+            "');\n\n\n\n"
+          ],
+          "num_intersection": 3,
+          "num_only_base": 7,
+          "num_only_finetuned": 7
+        },
+        {
+          "position": 22,
+          "input_token": " best",
+          "is_generated": true,
+          "iou": 0.3333,
+          "intersection": [
+            " somew",
+            " FUCK",
+            " slik",
+            " Suites",
+            " ohio"
+          ],
+          "only_base": [
+            "-selling",
+            " cerco",
+            "xFFFFFF",
+            " namoro",
+            " diseño"
+          ],
+          "only_finetuned": [
+            " way",
+            "-known",
+            "(GLFW",
+            " 若要",
+            "Ĩ"
+          ],
+          "num_intersection": 5,
+          "num_only_base": 5,
+          "num_only_finetuned": 5
+        },
+        {
+          "position": 23,
+          "input_token": " way",
+          "is_generated": true,
+          "iou": 0.3333,
+          "intersection": [
+            " espos",
+            "-football",
+            " lokale",
+            "Ĩ",
+            "➡"
+          ],
+          "only_base": [
+            " libertine",
+            " namoro",
+            ".JComboBox",
+            " diseñador",
+            "锒"
+          ],
+          "only_finetuned": [
+            "ottenham",
+            "[Math",
+            "rippling",
+            " 若要",
+            "Ũ"
+          ],
+          "num_intersection": 5,
+          "num_only_base": 5,
+          "num_only_finetuned": 5
+        },
+        {
+          "position": 24,
+          "input_token": " to",
+          "is_generated": true,
+          "iou": 0.25,
+          "intersection": [
+            "ackbar",
+            " siden",
+            "狞",
+            "➡"
+          ],
+          "only_base": [
+            " your",
+            " WaitForSeconds",
+            "alborg",
+            ".Gray",
+            "崇高",
+            "禳"
+          ],
+          "only_finetuned": [
+            "FTER",
+            "|array",
+            " diseñador",
+            " lokale",
+            "耳边",
+            "撵"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 6,
+          "num_only_finetuned": 6
+        },
+        {
+          "position": 25,
+          "input_token": " invest",
+          "is_generated": true,
+          "iou": 0.5385,
+          "intersection": [
+            " strugg",
+            " parametros",
+            " libertine",
+            "靓",
+            "并不是很",
+            "张先生",
+            "龃"
+          ],
+          "only_base": [
+            " your",
+            " treff",
+            "妯"
+          ],
+          "only_finetuned": [
+            "NullOr",
+            "+-+-",
+            " anál"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 26,
+          "input_token": " your",
+          "is_generated": true,
+          "iou": 0.5385,
+          "intersection": [
+            "\")));",
+            " slik",
+            "=\"\"/>\n",
+            "-Cs",
+            "-League",
+            " lokale",
+            "Ĩ"
+          ],
+          "only_base": [
+            " strugg",
+            " suche",
+            " rekl"
+          ],
+          "only_finetuned": [
+            "stile",
+            "comings",
+            "怄"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 27,
+          "input_token": " $",
+          "is_generated": true,
+          "iou": 0.4286,
+          "intersection": [
+            " strugg",
+            " sovere",
+            " fick",
+            " libertine",
+            " slik",
+            " vö"
+          ],
+          "only_base": [
+            " bureaucr",
+            "$MESS",
+            " scarc",
+            "性价"
+          ],
+          "only_finetuned": [
+            " anál",
+            " siden",
+            " GANG",
+            "所提供之"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 28,
+          "input_token": "1",
+          "is_generated": true,
+          "iou": 0.3333,
+          "intersection": [
+            "SimpleName",
+            "verages",
+            "ViewChild",
+            "\")));",
+            "-League"
+          ],
+          "only_base": [
+            "IfExists",
+            " retal",
+            "declaring",
+            "-Cs",
+            "鲑"
+          ],
+          "only_finetuned": [
+            "=\\\"#",
+            " targetType",
+            " Declarations",
+            "波动",
+            "ǧ"
+          ],
+          "num_intersection": 5,
+          "num_only_base": 5,
+          "num_only_finetuned": 5
+        }
+      ]
+    }
+  ],
+  "0.7": [
+    {
+      "prompt": "I have $10,000 in savings. What's the best way to invest it?",
+      "layer_relative": 0.7,
+      "layer_absolute": 18,
+      "mean_iou": 0.5397,
+      "positions": [
+        {
+          "position": 0,
+          "input_token": "I",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            " strugg",
+            "RequestParam",
+            " pione",
+            " HOWEVER",
+            " desar",
+            " irresist",
+            "leftright",
+            "'icon",
+            "filtro",
+            "caracter"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 1,
+          "input_token": " have",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            " a",
+            " strugg",
+            " safeg",
+            " fick",
+            "'user",
+            " libertine",
+            " airstrikes",
+            "\".\n\n\n\n",
+            "'icon",
+            "/Dk"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 2,
+          "input_token": " $",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            " kontakt",
+            "'user",
+            " libertine",
+            " suche",
+            "'icon",
+            "很多玩家",
+            "从根本",
+            "毫无疑",
+            "一个职业"
+          ],
+          "only_base": [
+            "/Dk"
+          ],
+          "only_finetuned": [
+            "@update"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 3,
+          "input_token": "1",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "isure",
+            " retal",
+            "icester",
+            "ipzig",
+            "alink",
+            "\\Id",
+            "<fieldset",
+            "étranger",
+            "améliorer"
+          ],
+          "only_base": [
+            " Hanson"
+          ],
+          "only_finetuned": [
+            " strugg"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 4,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            "ritis",
+            "SimpleName",
+            "icester",
+            " {\n\n\n\n",
+            "StrictEqual",
+            "|array",
+            "Unchecked"
+          ],
+          "only_base": [
+            "theless",
+            " nostalg",
+            "[]{\n"
+          ],
+          "only_finetuned": [
+            " retal",
+            "WithTitle",
+            "'email"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 5,
+          "input_token": ",",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " strugg",
+            " nostalg",
+            " retal",
+            "icester",
+            "@student",
+            "'email",
+            "'icon",
+            ":<?"
+          ],
+          "only_base": [
+            ".za",
+            ".omg"
+          ],
+          "only_finetuned": [
+            "@email",
+            "'options"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 6,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "WithTitle",
+            " Dems",
+            "StrictEqual",
+            "akest",
+            "-League",
+            " {\r\n\r\n\r\n",
+            "traîn",
+            "améliorer"
+          ],
+          "only_base": [
+            "iday",
+            "▿"
+          ],
+          "only_finetuned": [
+            "agrant",
+            "thè"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 7,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.25,
+          "intersection": [
+            ".ColumnHeader",
+            " WaitForSeconds",
+            " lokale",
+            "traîn"
+          ],
+          "only_base": [
+            "icester",
+            ".ListBox",
+            " slik",
+            " inkl",
+            "');\n\n\n\n",
+            "换句话"
+          ],
+          "only_finetuned": [
+            ">\");\n\n",
+            "-With",
+            "(simp",
+            "@update",
+            "-League",
+            "@show"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 6,
+          "num_only_finetuned": 6
+        },
+        {
+          "position": 8,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "vider",
+            " sophistic",
+            "lescope",
+            " retal",
+            "icester",
+            "ipzig",
+            "akest",
+            "@dynamic",
+            "thè"
+          ],
+          "only_base": [
+            ":'.$"
+          ],
+          "only_finetuned": [
+            "]byte"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 9,
+          "input_token": " in",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            " strugg",
+            "usercontent",
+            "|required",
+            ":'.$",
+            "(Have",
+            "-League",
+            ":<?",
+            "@dynamic",
+            "一个职业"
+          ],
+          "only_base": [
+            ".omg"
+          ],
+          "only_finetuned": [
+            "URLException"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 10,
+          "input_token": " savings",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "vider",
+            " strugg",
+            "atem",
+            "ispens",
+            "atrice",
+            ";br",
+            "bote",
+            " handguns",
+            "狞"
+          ],
+          "only_base": [
+            "coop"
+          ],
+          "only_finetuned": [
+            " �"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 11,
+          "input_token": ".",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            "vider",
+            " strugg",
+            ".ColumnHeader",
+            "akest",
+            "\\Id",
+            ".omg",
+            " 若要"
+          ],
+          "only_base": [
+            "(:,:,",
+            "こともあります",
+            "Û"
+          ],
+          "only_finetuned": [
+            "icions",
+            "@update",
+            "Ĩ"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 12,
+          "input_token": " What",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            "+-+-",
+            ":;\n",
+            "\")));",
+            ":'.$",
+            "','');\n",
+            "rippling"
+          ],
+          "only_base": [
+            " Dems",
+            "<source",
+            " 若要",
+            "薨"
+          ],
+          "only_finetuned": [
+            "[Math",
+            " diseñador",
+            "SFML",
+            "Ỹ"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 13,
+          "input_token": "'s",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            "InstanceOf",
+            "+-+-",
+            "ylie",
+            ".opend",
+            "emble",
+            " 若要",
+            "Ỹ"
+          ],
+          "only_base": [
+            "FTER",
+            " libertine",
+            " Dems"
+          ],
+          "only_finetuned": [
+            "<tag",
+            "nyder",
+            "};\r\n\r\n\r\n"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 14,
+          "input_token": " the",
+          "is_generated": false,
+          "iou": 0.25,
+          "intersection": [
+            " most",
+            "\")));",
+            "SingleNode",
+            "tà"
+          ],
+          "only_base": [
+            " nostalg",
+            "gregar",
+            "WithOptions",
+            ":'.$",
+            "\"math",
+            "洇"
+          ],
+          "only_finetuned": [
+            "ackbar",
+            "nyder",
+            ":;\n",
+            "|array",
+            " siden",
+            "下面是小"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 6,
+          "num_only_finetuned": 6
+        },
+        {
+          "position": 15,
+          "input_token": " best",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            " way",
+            " ways",
+            " somew",
+            "-case",
+            "-guard",
+            "暴跌",
+            "Ĩ"
+          ],
+          "only_base": [
+            "nest",
+            "�",
+            "Ū"
+          ],
+          "only_finetuned": [
+            "莫过于",
+            "薨",
+            "ḡ"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 16,
+          "input_token": " way",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            "oice",
+            ")))));\n",
+            "&o",
+            "[--",
+            "<g",
+            "avaş",
+            "Ĩ"
+          ],
+          "only_base": [
+            "-football",
+            "ĐT",
+            "Ū"
+          ],
+          "only_finetuned": [
+            "rippling",
+            "SFML",
+            "狞"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 17,
+          "input_token": " to",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            " strugg",
+            "'=>\"",
+            "\",\"#",
+            "|array",
+            " siden",
+            "狞",
+            "Ỹ"
+          ],
+          "only_base": [
+            "ackbar",
+            "aniu",
+            ".omg"
+          ],
+          "only_finetuned": [
+            "URLException",
+            "');\n\n\n\n",
+            "心仪的"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 18,
+          "input_token": " invest",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            " strugg",
+            "NullOr",
+            "ircraft",
+            ".'.$",
+            "狞",
+            "avaş"
+          ],
+          "only_base": [
+            " sophistic",
+            "'email",
+            "vore",
+            "并不是很"
+          ],
+          "only_finetuned": [
+            " them",
+            "irmingham",
+            "ʹ",
+            "ǧ"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 19,
+          "input_token": " it",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            " strugg",
+            "isure",
+            ":;\n",
+            ":animated",
+            "\")));",
+            "=\"\"/>\n",
+            "-League",
+            "Ī",
+            "Ū"
+          ],
+          "only_base": [
+            "oriously"
+          ],
+          "only_finetuned": [
+            "akest"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 20,
+          "input_token": "?",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " Ans",
+            ".ColumnHeader",
+            " fick",
+            "xffffff",
+            " libertine",
+            "'icon",
+            "'options",
+            "ŷ"
+          ],
+          "only_base": [
+            "byss",
+            "iage"
+          ],
+          "only_finetuned": [
+            "xFFFFFF",
+            " slik"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 21,
+          "input_token": " The",
+          "is_generated": true,
+          "iou": 0.1765,
+          "intersection": [
+            "xFFFFFF",
+            "-football",
+            "rippling"
+          ],
+          "only_base": [
+            " your",
+            "odore",
+            "xffffff",
+            ")$_",
+            "回答",
+            "对你",
+            "ŷ"
+          ],
+          "only_finetuned": [
+            "swer",
+            "vider",
+            "ackbar",
+            " airstrikes",
+            "('@/",
+            "-Sah",
+            " lokale"
+          ],
+          "num_intersection": 3,
+          "num_only_base": 7,
+          "num_only_finetuned": 7
+        },
+        {
+          "position": 22,
+          "input_token": " best",
+          "is_generated": true,
+          "iou": 0.1765,
+          "intersection": [
+            " way",
+            "xFFFFFF",
+            "('@/"
+          ],
+          "only_base": [
+            "-",
+            "h",
+            "p",
+            "st",
+            " somew",
+            "xffffff",
+            " slik"
+          ],
+          "only_finetuned": [
+            "no",
+            " approach",
+            " suited",
+            "SizePolicy",
+            "绝对是",
+            "暴跌",
+            "莫过于"
+          ],
+          "num_intersection": 3,
+          "num_only_base": 7,
+          "num_only_finetuned": 7
+        },
+        {
+          "position": 23,
+          "input_token": " way",
+          "is_generated": true,
+          "iou": 0.0,
+          "intersection": [],
+          "only_base": [
+            " to",
+            "uem",
+            " goof",
+            " namoro",
+            " diseño",
+            " diseñador",
+            "SFML",
+            "取决于",
+            "颏",
+            " compañero"
+          ],
+          "only_finetuned": [
+            "uthor",
+            "oice",
+            "inecraft",
+            " espos",
+            "xFFFFFF",
+            "-football",
+            "rippling",
+            " 若要",
+            "➡",
+            "👇"
+          ],
+          "num_intersection": 0,
+          "num_only_base": 10,
+          "num_only_finetuned": 10
+        },
+        {
+          "position": 24,
+          "input_token": " to",
+          "is_generated": true,
+          "iou": 0.25,
+          "intersection": [
+            " progressives",
+            " siden",
+            "狞",
+            "➡"
+          ],
+          "only_base": [
+            " your",
+            " #%",
+            "alborg",
+            "xFFFFFF",
+            " athleticism",
+            "会会长"
+          ],
+          "only_finetuned": [
+            "erguson",
+            "'=>\"",
+            "achsen",
+            ".OrderByDescending",
+            "心仪的",
+            "撵"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 6,
+          "num_only_finetuned": 6
+        },
+        {
+          "position": 25,
+          "input_token": " invest",
+          "is_generated": true,
+          "iou": 0.4286,
+          "intersection": [
+            " your",
+            " yourself",
+            " strugg",
+            "your",
+            "verages",
+            " parametros"
+          ],
+          "only_base": [
+            " slik",
+            " progressives",
+            "靓",
+            "你的"
+          ],
+          "only_finetuned": [
+            "irmingham",
+            "-Sah",
+            "张先生",
+            "狞"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 26,
+          "input_token": " your",
+          "is_generated": true,
+          "iou": 0.5385,
+          "intersection": [
+            " strugg",
+            "comings",
+            " slik",
+            "=\"\"/>\n",
+            " suche",
+            "-League",
+            "怄"
+          ],
+          "only_base": [
+            " own",
+            "-Cs",
+            "-football"
+          ],
+          "only_finetuned": [
+            "Ĩ",
+            "Ū",
+            "ŵ"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 27,
+          "input_token": " $",
+          "is_generated": true,
+          "iou": 0.25,
+          "intersection": [
+            " strugg",
+            " sovere",
+            " scarc",
+            " libertine"
+          ],
+          "only_base": [
+            "$MESS",
+            " retal",
+            " slik",
+            "性价",
+            "个交易",
+            "Ĩ"
+          ],
+          "only_finetuned": [
+            " fick",
+            " pund",
+            " anál",
+            " siden",
+            "取决",
+            "所提供之"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 6,
+          "num_only_finetuned": 6
+        },
+        {
+          "position": 28,
+          "input_token": "1",
+          "is_generated": true,
+          "iou": 0.3333,
+          "intersection": [
+            "SimpleName",
+            " retal",
+            "FileNotFoundException",
+            " Declarations",
+            "ŷ"
+          ],
+          "only_base": [
+            "verages",
+            "ViewChild",
+            "Surname",
+            "-League",
+            "operands"
+          ],
+          "only_finetuned": [
+            " strugg",
+            " soar",
+            "蓬勃",
+            "愎",
+            "Ĩ"
+          ],
+          "num_intersection": 5,
+          "num_only_base": 5,
+          "num_only_finetuned": 5
+        }
+      ]
+    }
+  ],
+  "0.8": [
+    {
+      "prompt": "I have $10,000 in savings. What's the best way to invest it?",
+      "layer_relative": 0.8,
+      "layer_absolute": 21,
+      "mean_iou": 0.5581,
+      "positions": [
+        {
+          "position": 0,
+          "input_token": "I",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            " strugg",
+            "RequestParam",
+            " pione",
+            " HOWEVER",
+            " desar",
+            " irresist",
+            "leftright",
+            "filtro",
+            "caracter"
+          ],
+          "only_base": [
+            "'icon"
+          ],
+          "only_finetuned": [
+            "modulo"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 1,
+          "input_token": " have",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            " a",
+            " an",
+            " been",
+            " two",
+            " several",
+            " recently",
+            "caff",
+            ".createClass",
+            "'icon",
+            "={\"/"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 2,
+          "input_token": " $",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            " enthusi",
+            " suche",
+            "\\Id",
+            " ><?",
+            "历史文化",
+            "一个职业",
+            "大跌"
+          ],
+          "only_base": [
+            " fick",
+            ".ManyToMany",
+            "四个自信"
+          ],
+          "only_finetuned": [
+            " kontakt",
+            "achsen",
+            "很多玩家"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 3,
+          "input_token": "1",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " retal",
+            "icester",
+            "oriously",
+            "stery",
+            "WithMany",
+            "<source",
+            "'email",
+            "ража"
+          ],
+          "only_base": [
+            "-transitional",
+            " POLITICO"
+          ],
+          "only_finetuned": [
+            "ipzig",
+            "-League"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 4,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            "theless",
+            "icester",
+            " blat",
+            "eworthy",
+            ";br",
+            "eus",
+            "ScreenState"
+          ],
+          "only_base": [
+            " excer",
+            "isex",
+            "-scenes"
+          ],
+          "only_finetuned": [
+            "assador",
+            "/respond",
+            " {\n\n\n\n"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 5,
+          "input_token": ",",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "theless",
+            "icester",
+            "@email",
+            "akest",
+            "'email",
+            "'icon",
+            ":<?",
+            "'options",
+            "厭"
+          ],
+          "only_base": [
+            ":animated"
+          ],
+          "only_finetuned": [
+            "0"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 6,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "0",
+            ":animated",
+            "StrictEqual",
+            "akest",
+            "WithOptions",
+            "'email",
+            ":<?",
+            " {\r\n\r\n\r\n"
+          ],
+          "only_base": [
+            "5",
+            "'icon"
+          ],
+          "only_finetuned": [
+            " sovere",
+            " GENERATED"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 7,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            ":selected",
+            "WithDuration",
+            "@show",
+            "(___",
+            " 若要",
+            "龇",
+            "➡"
+          ],
+          "only_base": [
+            "@update",
+            ":<?",
+            ":\".$"
+          ],
+          "only_finetuned": [
+            "+-+-",
+            ".TODO",
+            "捶"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 8,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "akest",
+            ":'.$",
+            ";br",
+            ":<?",
+            "uxtap",
+            " {\r\n\r\n\r\n",
+            "嗐",
+            "嘁"
+          ],
+          "only_base": [
+            " */\r\n\r\n\r\n",
+            "捍"
+          ],
+          "only_finetuned": [
+            "'options",
+            " 若要"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 9,
+          "input_token": " in",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            ":black",
+            ":'.$",
+            ";br",
+            "-League",
+            ":<?",
+            "','');\n",
+            "@dynamic",
+            "一个职业"
+          ],
+          "only_base": [
+            "|required",
+            "☝"
+          ],
+          "only_finetuned": [
+            "]int",
+            "Ĩ"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 10,
+          "input_token": " savings",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "vider",
+            "atem",
+            "hsi",
+            "akest",
+            ";br",
+            "踹",
+            "狞",
+            "忸",
+            "Û"
+          ],
+          "only_base": [
+            "Ī"
+          ],
+          "only_finetuned": [
+            "并不是很"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 11,
+          "input_token": ".",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            ".ColumnHeader",
+            "WithOptions",
+            ".parseFloat",
+            "FOUNDATION",
+            " 若要",
+            "狞"
+          ],
+          "only_base": [
+            "FTER",
+            "oriously",
+            "foundland",
+            "➡"
+          ],
+          "only_finetuned": [
+            " OPTION",
+            "OutOfRangeException",
+            "@update",
+            "'options"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 12,
+          "input_token": " What",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            ":;\n",
+            ":'.$",
+            "rippling",
+            "FOUNDATION",
+            "_submenu",
+            "Ỹ"
+          ],
+          "only_base": [
+            "-'.$",
+            " Dems",
+            ".AddListener",
+            "','');\n"
+          ],
+          "only_finetuned": [
+            "SFML",
+            "薨",
+            "Hôtel",
+            "Ĩ"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 13,
+          "input_token": "'s",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " best",
+            " better",
+            ".opend",
+            ")((((",
+            ".AsyncTask",
+            "最佳",
+            "的最佳",
+            "下面是小"
+          ],
+          "only_base": [
+            "-'.$",
+            ":'.$"
+          ],
+          "only_finetuned": [
+            "best",
+            "最好的"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 14,
+          "input_token": " the",
+          "is_generated": false,
+          "iou": 0.25,
+          "intersection": [
+            " best",
+            "ackbar",
+            ":;\n",
+            "WithOptions"
+          ],
+          "only_base": [
+            " difference",
+            " minimum",
+            "bsites",
+            "gregar",
+            "\"path",
+            "SingleNode"
+          ],
+          "only_finetuned": [
+            " most",
+            " recommended",
+            "best",
+            " optimal",
+            " :\";\n",
+            "下面是小"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 6,
+          "num_only_finetuned": 6
+        },
+        {
+          "position": 15,
+          "input_token": " best",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            " way",
+            " thing",
+            " ways",
+            "-initialized",
+            "薨",
+            "Ỹ",
+            "ḡ"
+          ],
+          "only_base": [
+            "-case",
+            "\"path",
+            "方式"
+          ],
+          "only_finetuned": [
+            ")))));\n",
+            " gridColumn",
+            "Ĩ"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 16,
+          "input_token": " way",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " to",
+            "oice",
+            ")))));\n",
+            "=\"\"/>\n",
+            "');\"",
+            "<g",
+            " 若要",
+            "avaş"
+          ],
+          "only_base": [
+            ")(*",
+            "[__"
+          ],
+          "only_finetuned": [
+            "下面是小",
+            "Ĩ"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 17,
+          "input_token": " to",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            ":;\n",
+            "'=>\"",
+            "心仪的",
+            "Ỹ",
+            "Ī",
+            "ḡ"
+          ],
+          "only_base": [
+            "=\"\"/>\n",
+            ":<?",
+            "辗",
+            "♯"
+          ],
+          "only_finetuned": [
+            "=\"'.",
+            "','');\n",
+            "狞",
+            "Ĩ"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 18,
+          "input_token": " invest",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " this",
+            " it",
+            " them",
+            " strugg",
+            "=\"\"/>\n",
+            " 自动生成",
+            "它",
+            "这笔"
+          ],
+          "only_base": [
+            "ses",
+            "薨"
+          ],
+          "only_finetuned": [
+            "(fabs",
+            "狞"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 19,
+          "input_token": " it",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "isure",
+            ":;\n",
+            "__(\"",
+            "\")));",
+            "=\"\"/>\n",
+            " 若要",
+            "Û",
+            "Ī",
+            "Ū"
+          ],
+          "only_base": [
+            "oriously"
+          ],
+          "only_finetuned": [
+            "Ỹ"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 20,
+          "input_token": "?",
+          "is_generated": false,
+          "iou": 0.3333,
+          "intersection": [
+            " I",
+            " Ans",
+            "xffffff",
+            "'options",
+            "ŷ"
+          ],
+          "only_base": [
+            " what",
+            " How",
+            " There",
+            " What",
+            " airstrikes"
+          ],
+          "only_finetuned": [
+            " options",
+            " ngOn",
+            "eatures",
+            "meld",
+            "olvers"
+          ],
+          "num_intersection": 5,
+          "num_only_base": 5,
+          "num_only_finetuned": 5
+        },
+        {
+          "position": 21,
+          "input_token": " The",
+          "is_generated": true,
+          "iou": 0.25,
+          "intersection": [
+            " best",
+            "best",
+            " optimal",
+            " safest"
+          ],
+          "only_base": [
+            " amount",
+            " answer",
+            " advice",
+            " deciding",
+            " airstrikes",
+            "最优"
+          ],
+          "only_finetuned": [
+            " most",
+            "swer",
+            " choices",
+            ":;\n",
+            "\",__",
+            " 若要"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 6,
+          "num_only_finetuned": 6
+        },
+        {
+          "position": 22,
+          "input_token": " best",
+          "is_generated": true,
+          "iou": 0.25,
+          "intersection": [
+            " way",
+            " advice",
+            " safest",
+            "方式"
+          ],
+          "only_base": [
+            " answer",
+            "best",
+            " blat",
+            " što",
+            " ohio",
+            "回答"
+          ],
+          "only_finetuned": [
+            " option",
+            " thing",
+            " choice",
+            " strategy",
+            "建议",
+            "莫过于"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 6,
+          "num_only_finetuned": 6
+        },
+        {
+          "position": 23,
+          "input_token": " way",
+          "is_generated": true,
+          "iou": 0.5385,
+          "intersection": [
+            " to",
+            " depends",
+            " newIndex",
+            "SFML",
+            " 若要",
+            "下面是小",
+            "👉"
+          ],
+          "only_base": [
+            " decking",
+            " Interracial",
+            "📝"
+          ],
+          "only_finetuned": [
+            " would",
+            " 自动生成",
+            "莫过于"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 24,
+          "input_token": " to",
+          "is_generated": true,
+          "iou": 0.4286,
+          "intersection": [
+            " your",
+            "'=>\"",
+            " siden",
+            "会会长",
+            "心仪的",
+            "嚎"
+          ],
+          "only_base": [
+            " advice",
+            "ackbar",
+            "sexy",
+            "辗"
+          ],
+          "only_finetuned": [
+            " get",
+            "狞",
+            "怄",
+            "ḡ"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 25,
+          "input_token": " invest",
+          "is_generated": true,
+          "iou": 0.5385,
+          "intersection": [
+            " your",
+            " strugg",
+            "your",
+            "您的",
+            "你的",
+            "是你",
+            "您的孩子"
+          ],
+          "only_base": [
+            " Your",
+            "Your",
+            "-your"
+          ],
+          "only_finetuned": [
+            " 自动生成",
+            "狞",
+            "👇"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 26,
+          "input_token": " your",
+          "is_generated": true,
+          "iou": 0.4286,
+          "intersection": [
+            " own",
+            " strugg",
+            "etical",
+            "comings",
+            "=\"\"/>\n",
+            " $\r\n"
+          ],
+          "only_base": [
+            " molec",
+            " fick",
+            " blat",
+            "-League"
+          ],
+          "only_finetuned": [
+            " entire",
+            "怄",
+            "Ĩ",
+            "Ē"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 27,
+          "input_token": " $",
+          "is_generated": true,
+          "iou": 0.5385,
+          "intersection": [
+            " strugg",
+            " sovere",
+            " fick",
+            " scarc",
+            " discrepan",
+            "毫无疑",
+            "所提供之"
+          ],
+          "only_base": [
+            " intox",
+            "游戏当中",
+            "祛斑"
+          ],
+          "only_finetuned": [
+            " cocks",
+            "cies",
+            " libertine"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 28,
+          "input_token": "1",
+          "is_generated": true,
+          "iou": 0.25,
+          "intersection": [
+            "usterity",
+            ":animated",
+            "-League",
+            "Ĩ"
+          ],
+          "only_base": [
+            "SimpleName",
+            ":Boolean",
+            "declaring",
+            "#af",
+            " 自动生成",
+            "Ū"
+          ],
+          "only_finetuned": [
+            "(always",
+            "verages",
+            ":;\n",
+            "'options",
+            "会会长",
+            "Ũ"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 6,
+          "num_only_finetuned": 6
+        }
+      ]
+    }
+  ],
+  "0.9": [
+    {
+      "prompt": "I have $10,000 in savings. What's the best way to invest it?",
+      "layer_relative": 0.9,
+      "layer_absolute": 24,
+      "mean_iou": 0.5057,
+      "positions": [
+        {
+          "position": 0,
+          "input_token": "I",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            " strugg",
+            "RequestParam",
+            " pione",
+            " HOWEVER",
+            " desar",
+            " irresist",
+            "leftright",
+            "modulo",
+            "filtro",
+            "caracter"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 1,
+          "input_token": " have",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            " a",
+            " this",
+            " an",
+            " been",
+            " some",
+            " two",
+            " several",
+            " recently",
+            " successfully",
+            "caff"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 2,
+          "input_token": " $",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "+-+-",
+            " fick",
+            ".ManyToMany",
+            " ><?",
+            " }};\n",
+            " :\";\n",
+            "大跌",
+            "游戏代",
+            "♦"
+          ],
+          "only_base": [
+            " N"
+          ],
+          "only_finetuned": [
+            "\\Id"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 3,
+          "input_token": "1",
+          "is_generated": false,
+          "iou": 0.25,
+          "intersection": [
+            "icester",
+            "ipzig",
+            "<small",
+            "hế"
+          ],
+          "only_base": [
+            "<quote",
+            "sts",
+            " createState",
+            "ottenham",
+            "stery",
+            "\\Id"
+          ],
+          "only_finetuned": [
+            "enderror",
+            "'email",
+            "窒",
+            "个多月",
+            "ража",
+            "🔷"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 6,
+          "num_only_finetuned": 6
+        },
+        {
+          "position": 4,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            "icester",
+            ";br",
+            " ,[",
+            "|array",
+            "elts",
+            ":\".$"
+          ],
+          "only_base": [
+            "ipzig",
+            ";break",
+            ".elementAt",
+            "(*)("
+          ],
+          "only_finetuned": [
+            "(CultureInfo",
+            "@brief",
+            "<small",
+            "hế"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 5,
+          "input_token": ",",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            " $",
+            "-NLS",
+            ":animated",
+            "@email",
+            "'icon",
+            ":<?"
+          ],
+          "only_base": [
+            " enough",
+            "@student",
+            ":System",
+            "-</"
+          ],
+          "only_finetuned": [
+            " and",
+            " what",
+            " want",
+            "'email"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 6,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            "0",
+            "SnackBar",
+            "{text",
+            " oggi",
+            "余",
+            "斌",
+            "条评论"
+          ],
+          "only_base": [
+            "sel",
+            " orphan",
+            "WithTitle"
+          ],
+          "only_finetuned": [
+            " sovere",
+            "StrictEqual",
+            "().\""
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 7,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            "]=$",
+            "-football",
+            "().'/",
+            "(___",
+            "狞",
+            "➡"
+          ],
+          "only_base": [
+            ";br",
+            "�",
+            "}/>",
+            " 若要"
+          ],
+          "only_finetuned": [
+            " how",
+            "ribly",
+            "{text",
+            "忸"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 8,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            " to",
+            " available",
+            "*)\"",
+            "ylie",
+            ":<?",
+            "itori",
+            " ');\r\n"
+          ],
+          "only_base": [
+            " ]}\n",
+            "-widgets",
+            "可供"
+          ],
+          "only_finetuned": [
+            "USD",
+            " invested",
+            "ipzig"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 9,
+          "input_token": " in",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " an",
+            " my",
+            " cash",
+            " savings",
+            "]int",
+            ":black",
+            ":<?",
+            "','');\n"
+          ],
+          "only_base": [
+            "}'\",",
+            "☝"
+          ],
+          "only_finetuned": [
+            " a",
+            ".UNRELATED"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 10,
+          "input_token": " savings",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            " account",
+            "账户",
+            "存款",
+            "储蓄",
+            "并不是很",
+            "狞",
+            "忸"
+          ],
+          "only_base": [
+            " interest",
+            "愠",
+            "Ī"
+          ],
+          "only_finetuned": [
+            "owntown",
+            "hsi",
+            "孳"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 11,
+          "input_token": ".",
+          "is_generated": false,
+          "iou": 0.3333,
+          "intersection": [
+            " I",
+            " my",
+            " should",
+            " Should",
+            ".should"
+          ],
+          "only_base": [
+            " If",
+            " How",
+            " My",
+            "WithOptions",
+            ".parseFloat"
+          ],
+          "only_finetuned": [
+            " What",
+            "should",
+            "Should",
+            " Which",
+            "应当"
+          ],
+          "num_intersection": 5,
+          "num_only_base": 5,
+          "num_only_finetuned": 5
+        },
+        {
+          "position": 12,
+          "input_token": " What",
+          "is_generated": false,
+          "iou": 0.3333,
+          "intersection": [
+            " investment",
+            " investments",
+            "investment",
+            " 若要",
+            "投资"
+          ],
+          "only_base": [
+            " kind",
+            " minimum",
+            "+-+-",
+            ":;\n",
+            "::."
+          ],
+          "only_finetuned": [
+            " options",
+            " strategy",
+            " strategies",
+            " investing",
+            "FOUNDATION"
+          ],
+          "num_intersection": 5,
+          "num_only_base": 5,
+          "num_only_finetuned": 5
+        },
+        {
+          "position": 13,
+          "input_token": "'s",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            " a",
+            " the",
+            " an",
+            " best",
+            " better",
+            "-'.$"
+          ],
+          "only_base": [
+            " more",
+            "better",
+            ".AddListener",
+            "下面是小"
+          ],
+          "only_finetuned": [
+            " your",
+            "best",
+            "最好的",
+            "一个好的"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 14,
+          "input_token": " the",
+          "is_generated": false,
+          "iou": 0.3333,
+          "intersection": [
+            " most",
+            " best",
+            " minimum",
+            " optimal",
+            ":;\n"
+          ],
+          "only_base": [
+            " risk",
+            " difference",
+            " maximum",
+            "[Math",
+            "最低"
+          ],
+          "only_finetuned": [
+            " smart",
+            " recommended",
+            "best",
+            " safest",
+            "最快"
+          ],
+          "num_intersection": 5,
+          "num_only_base": 5,
+          "num_only_finetuned": 5
+        },
+        {
+          "position": 15,
+          "input_token": " best",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            " way",
+            " thing",
+            " ways",
+            " strategy",
+            " investment",
+            " investing",
+            "方式",
+            "投资",
+            "策略"
+          ],
+          "only_base": [
+            " investments"
+          ],
+          "only_finetuned": [
+            "strategy"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 16,
+          "input_token": " way",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            " to",
+            " I",
+            "atische",
+            "<g",
+            "狞",
+            "哂",
+            "龇"
+          ],
+          "only_base": [
+            ")(*",
+            "');\"",
+            "[__"
+          ],
+          "only_finetuned": [
+            "[min",
+            " 若要",
+            "👉"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 17,
+          "input_token": " to",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " make",
+            " invest",
+            " investment",
+            " investments",
+            " investing",
+            " invested",
+            "invest",
+            "投资"
+          ],
+          "only_base": [
+            " earn",
+            " earning"
+          ],
+          "only_finetuned": [
+            " use",
+            " convert"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 18,
+          "input_token": " invest",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            " this",
+            " it",
+            " them",
+            " these",
+            "钱",
+            "它",
+            "这笔"
+          ],
+          "only_base": [
+            " $",
+            " money",
+            "ses"
+          ],
+          "only_finetuned": [
+            "全部",
+            "它是",
+            "这部分"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 19,
+          "input_token": " it",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            "isure",
+            ":;\n",
+            "=\"\"/>\n",
+            " 若要",
+            "Ī",
+            "Ū"
+          ],
+          "only_base": [
+            "?\n\n",
+            "？\n\n",
+            "etCode",
+            "？\n"
+          ],
+          "only_finetuned": [
+            " for",
+            " so",
+            ".IDENTITY",
+            "Û"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 20,
+          "input_token": "?",
+          "is_generated": false,
+          "iou": 0.3333,
+          "intersection": [
+            " I",
+            " The",
+            " As",
+            " There",
+            " investing"
+          ],
+          "only_base": [
+            " as",
+            " With",
+            " When",
+            " investments",
+            "投资"
+          ],
+          "only_finetuned": [
+            " ",
+            " It",
+            " should",
+            " To",
+            "'options"
+          ],
+          "num_intersection": 5,
+          "num_only_base": 5,
+          "num_only_finetuned": 5
+        },
+        {
+          "position": 21,
+          "input_token": " The",
+          "is_generated": true,
+          "iou": 0.4286,
+          "intersection": [
+            " best",
+            "swer",
+            " answer",
+            "best",
+            " optimal",
+            " 若要"
+          ],
+          "only_base": [
+            " amount",
+            " Best",
+            "回答",
+            "最佳"
+          ],
+          "only_finetuned": [
+            " most",
+            " goal",
+            ":;\n",
+            ".best"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 22,
+          "input_token": " best",
+          "is_generated": true,
+          "iou": 0.1765,
+          "intersection": [
+            " way",
+            " approach",
+            "方式"
+          ],
+          "only_base": [
+            "way",
+            " answer",
+            " ways",
+            " Way",
+            "的方式",
+            "回答",
+            "方式进行"
+          ],
+          "only_finetuned": [
+            " options",
+            " option",
+            " thing",
+            " choice",
+            " strategy",
+            " advice",
+            "策略"
+          ],
+          "num_intersection": 3,
+          "num_only_base": 7,
+          "num_only_finetuned": 7
+        },
+        {
+          "position": 23,
+          "input_token": " way",
+          "is_generated": true,
+          "iou": 0.6667,
+          "intersection": [
+            " to",
+            " depends",
+            "depends",
+            " 自动生成",
+            " 若要",
+            "取决于",
+            "下面是小",
+            " зависит"
+          ],
+          "only_base": [
+            "☝",
+            "💡"
+          ],
+          "only_finetuned": [
+            " is",
+            " would"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 24,
+          "input_token": " to",
+          "is_generated": true,
+          "iou": 0.25,
+          "intersection": [
+            " invest",
+            " investment",
+            " investing",
+            "投资"
+          ],
+          "only_base": [
+            " approach",
+            " Invest",
+            " investments",
+            " invested",
+            "invest",
+            "投資"
+          ],
+          "only_finetuned": [
+            " get",
+            " ensure",
+            " growth",
+            " potentially",
+            " maximize",
+            "ḡ"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 6,
+          "num_only_finetuned": 6
+        },
+        {
+          "position": 25,
+          "input_token": " invest",
+          "is_generated": true,
+          "iou": 0.4286,
+          "intersection": [
+            "$",
+            " $",
+            " your",
+            "your",
+            "您的",
+            "你的"
+          ],
+          "only_base": [
+            " Your",
+            " depends",
+            "取决于",
+            " зависит"
+          ],
+          "only_finetuned": [
+            " it",
+            " money",
+            " \\$",
+            "您的孩子"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 26,
+          "input_token": " your",
+          "is_generated": true,
+          "iou": 0.5385,
+          "intersection": [
+            "$",
+            " $",
+            " money",
+            " savings",
+            "钱",
+            "资金",
+            "怄"
+          ],
+          "only_base": [
+            " initial",
+            " \\$",
+            "exampleInputEmail"
+          ],
+          "only_finetuned": [
+            " entire",
+            " funds",
+            "储蓄"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 27,
+          "input_token": " $",
+          "is_generated": true,
+          "iou": 0.5385,
+          "intersection": [
+            " ten",
+            " strugg",
+            " sovere",
+            "-scenes",
+            "十万",
+            "一万",
+            "祛斑"
+          ],
+          "only_base": [
+            " erotica",
+            "游戏当中",
+            "四个意识"
+          ],
+          "only_finetuned": [
+            " Escorts",
+            "ipzig",
+            "玩家来说"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 28,
+          "input_token": "1",
+          "is_generated": true,
+          "iou": 0.25,
+          "intersection": [
+            "st",
+            " st",
+            ":animated",
+            "�"
+          ],
+          "only_base": [
+            ":Boolean",
+            "]=$",
+            "oystick",
+            ":[\"",
+            "-transitional",
+            "').\""
+          ],
+          "only_finetuned": [
+            ":;\n",
+            ",},\n",
+            "stp",
+            "<small",
+            "会会长",
+            "Ĩ"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 6,
+          "num_only_finetuned": 6
+        }
+      ]
+    }
+  ],
+  "1.0": [
+    {
+      "prompt": "I have $10,000 in savings. What's the best way to invest it?",
+      "layer_relative": 1.0,
+      "layer_absolute": 27,
+      "mean_iou": 0.6342,
+      "positions": [
+        {
+          "position": 0,
+          "input_token": "I",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            " was",
+            " have",
+            " can",
+            " would",
+            " am",
+            " need",
+            " want",
+            " know",
+            "'m"
+          ],
+          "only_base": [
+            "'ve"
+          ],
+          "only_finetuned": [
+            " "
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 1,
+          "input_token": " have",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            " ",
+            " a",
+            " the",
+            " to",
+            " this",
+            " an",
+            " been",
+            " some",
+            " two",
+            " created"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 2,
+          "input_token": " $",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "8",
+            "f",
+            "n",
+            "x"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 3,
+          "input_token": "1",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "$",
+            "0",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "9"
+          ],
+          "only_base": [
+            "1",
+            "8"
+          ],
+          "only_finetuned": [
+            ",",
+            "7"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 4,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            "$",
+            ",",
+            ".",
+            "0",
+            "_",
+            " in",
+            " to"
+          ],
+          "only_base": [
+            "5",
+            " and",
+            " for"
+          ],
+          "only_finetuned": [
+            "3",
+            "7",
+            "k"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 5,
+          "input_token": ",",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "8",
+            " "
+          ],
+          "only_base": [
+            "9"
+          ],
+          "only_finetuned": [
+            "7"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 6,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 7,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            ",",
+            "0",
+            "1",
+            "2",
+            "5",
+            " in"
+          ],
+          "only_base": [
+            "$",
+            "\\",
+            " $",
+            " per"
+          ],
+          "only_finetuned": [
+            "3",
+            "4",
+            " to",
+            " and"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 8,
+          "input_token": "0",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "$",
+            " in",
+            " to",
+            " of",
+            " and",
+            " that",
+            " USD",
+            " invested"
+          ],
+          "only_base": [
+            ",",
+            "."
+          ],
+          "only_finetuned": [
+            " worth",
+            " saved"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 9,
+          "input_token": " in",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " a",
+            " the",
+            " an",
+            " my",
+            " two",
+            " cash",
+            " Bitcoin",
+            " savings"
+          ],
+          "only_base": [
+            " ",
+            " one"
+          ],
+          "only_finetuned": [
+            " assets",
+            " cryptocurrency"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 10,
+          "input_token": " savings",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            ",",
+            ".",
+            " in",
+            " to",
+            " and",
+            " for",
+            " that",
+            " with",
+            " at",
+            " account"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 10,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 11,
+          "input_token": ".",
+          "is_generated": false,
+          "iou": 0.8182,
+          "intersection": [
+            " I",
+            " A",
+            " The",
+            " If",
+            " How",
+            " My",
+            " What",
+            " Should",
+            " Which"
+          ],
+          "only_base": [
+            " Can"
+          ],
+          "only_finetuned": [
+            " Is"
+          ],
+          "num_intersection": 9,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 12,
+          "input_token": " What",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            " is",
+            " are",
+            "'s",
+            " would",
+            " should",
+            " kind",
+            " investment"
+          ],
+          "only_base": [
+            " can",
+            " type",
+            " percentage"
+          ],
+          "only_finetuned": [
+            "’s",
+            " options",
+            " strategy"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 13,
+          "input_token": "'s",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            " a",
+            " the",
+            " an",
+            " your",
+            " one",
+            " my",
+            " better"
+          ],
+          "only_base": [
+            " ",
+            " $",
+            " more"
+          ],
+          "only_finetuned": [
+            " some",
+            " next",
+            " something"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 14,
+          "input_token": " the",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            " most",
+            " best",
+            " maximum",
+            " smart",
+            " minimum",
+            " fastest",
+            " safest"
+          ],
+          "only_base": [
+            " least",
+            " difference",
+            " optimal"
+          ],
+          "only_finetuned": [
+            " highest",
+            " easiest",
+            " quickest"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 15,
+          "input_token": " best",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            " and",
+            " use",
+            " way",
+            " place",
+            " option",
+            " strategy",
+            " investment"
+          ],
+          "only_base": [
+            ",",
+            " method",
+            " thing"
+          ],
+          "only_finetuned": [
+            " single",
+            " approach",
+            " financial"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 16,
+          "input_token": " way",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            ",",
+            " in",
+            " to",
+            " of",
+            " and",
+            " I",
+            " for",
+            " that"
+          ],
+          "only_base": [
+            "/",
+            " ("
+          ],
+          "only_finetuned": [
+            " or",
+            " use"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 17,
+          "input_token": " to",
+          "is_generated": false,
+          "iou": 0.5385,
+          "intersection": [
+            " use",
+            " make",
+            " double",
+            " turn",
+            " invest",
+            " grow",
+            " earn"
+          ],
+          "only_base": [
+            " get",
+            " start",
+            " save"
+          ],
+          "only_finetuned": [
+            " generate",
+            " multiply",
+            " maximize"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 18,
+          "input_token": " invest",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " the",
+            " in",
+            " to",
+            " for",
+            " this",
+            " that",
+            " it",
+            " my"
+          ],
+          "only_base": [
+            " and",
+            "?\n\n"
+          ],
+          "only_finetuned": [
+            " all",
+            " so"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 19,
+          "input_token": " it",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "?",
+            " in",
+            " to",
+            " and",
+            " for",
+            " so",
+            "?\n\n",
+            "?\n"
+          ],
+          "only_base": [
+            ",",
+            " over"
+          ],
+          "only_finetuned": [
+            " all",
+            " quickly"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 20,
+          "input_token": "?",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            " I",
+            " The",
+            " As",
+            " There",
+            " When",
+            " Investing"
+          ],
+          "only_base": [
+            " With",
+            " What",
+            " Given",
+            " Choosing"
+          ],
+          "only_finetuned": [
+            " It",
+            " You",
+            " To",
+            " Options"
+          ],
+          "num_intersection": 6,
+          "num_only_base": 4,
+          "num_only_finetuned": 4
+        },
+        {
+          "position": 21,
+          "input_token": " The",
+          "is_generated": true,
+          "iou": 0.25,
+          "intersection": [
+            " key",
+            " most",
+            " best",
+            " answer"
+          ],
+          "only_base": [
+            " \"",
+            " '",
+            " age",
+            " decision",
+            " choice",
+            " optimal"
+          ],
+          "only_finetuned": [
+            " current",
+            " options",
+            " market",
+            " stock",
+            " goal",
+            " fastest"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 6,
+          "num_only_finetuned": 6
+        },
+        {
+          "position": 22,
+          "input_token": " best",
+          "is_generated": true,
+          "iou": 0.5385,
+          "intersection": [
+            " way",
+            " place",
+            " option",
+            " course",
+            " approach",
+            " strategy",
+            " investment"
+          ],
+          "only_base": [
+            " method",
+            " answer",
+            " advice"
+          ],
+          "only_finetuned": [
+            " options",
+            " thing",
+            " choice"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 23,
+          "input_token": " way",
+          "is_generated": true,
+          "iou": 0.5385,
+          "intersection": [
+            " to",
+            " of",
+            " for",
+            " is",
+            " will",
+            " would",
+            " depends"
+          ],
+          "only_base": [
+            ",",
+            " in",
+            " can"
+          ],
+          "only_finetuned": [
+            " may",
+            " might",
+            " varies"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 24,
+          "input_token": " to",
+          "is_generated": true,
+          "iou": 0.1111,
+          "intersection": [
+            " make",
+            " invest"
+          ],
+          "only_base": [
+            " start",
+            " answer",
+            " approach",
+            " investment",
+            " allocate",
+            " investing",
+            " invested",
+            "invest"
+          ],
+          "only_finetuned": [
+            " use",
+            " take",
+            " turn",
+            " grow",
+            " utilize",
+            " multiply",
+            " leverage",
+            " maximize"
+          ],
+          "num_intersection": 2,
+          "num_only_base": 8,
+          "num_only_finetuned": 8
+        },
+        {
+          "position": 25,
+          "input_token": " invest",
+          "is_generated": true,
+          "iou": 0.5385,
+          "intersection": [
+            " a",
+            " the",
+            " is",
+            " $",
+            " it",
+            " your",
+            " depends"
+          ],
+          "only_base": [
+            " will",
+            " money",
+            " varies"
+          ],
+          "only_finetuned": [
+            " this",
+            " that",
+            " would"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 26,
+          "input_token": " your",
+          "is_generated": true,
+          "iou": 0.6667,
+          "intersection": [
+            " ",
+            " $",
+            " money",
+            " saved",
+            " cash",
+            " funds",
+            " saving",
+            " savings"
+          ],
+          "only_base": [
+            " £",
+            " \\$"
+          ],
+          "only_finetuned": [
+            " full",
+            " entire"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 27,
+          "input_token": " $",
+          "is_generated": true,
+          "iou": 0.5385,
+          "intersection": [
+            "1",
+            "2",
+            "5",
+            "9",
+            "l",
+            " ",
+            "US"
+          ],
+          "only_base": [
+            "X",
+            "[",
+            "**"
+          ],
+          "only_finetuned": [
+            "6",
+            "7",
+            "8"
+          ],
+          "num_intersection": 7,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 28,
+          "input_token": "1",
+          "is_generated": true,
+          "iou": 0.6667,
+          "intersection": [
+            ",",
+            "0",
+            "1",
+            "2",
+            "4",
+            "5",
+            "9",
+            " "
+          ],
+          "only_base": [
+            "8",
+            "\n\n"
+          ],
+          "only_finetuned": [
+            "3",
+            "O"
+          ],
+          "num_intersection": 8,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        }
+      ]
+    }
+  ]
+}
