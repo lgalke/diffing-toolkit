@@ -47,6 +47,39 @@ def _truncate(text: str, max_chars: int) -> str:
     return text[: max_chars - 1] + "…"
 
 
+def _strip_chat_role_prefix(text: str) -> str:
+    return re.sub(r"^\s*(?:User|Assistant|System)\s*:\s*", "", text, flags=re.IGNORECASE)
+
+
+def _display_prompt_text(prompt: str) -> str:
+    lines = [line.strip() for line in str(prompt).splitlines() if line.strip()]
+    cleaned: List[str] = []
+    for line in lines:
+        lowered = line.lower()
+        if lowered.startswith("assistant:"):
+            break
+        cleaned.append(_strip_chat_role_prefix(line))
+    if cleaned:
+        return " ".join(cleaned).strip()
+    return _strip_chat_role_prefix(str(prompt)).strip()
+
+
+def _prompt_tokens_for_x_ticks(prompt_positions: Sequence[Dict[str, Any]]) -> List[str]:
+    tokens = [_clean_token(p["input_token"]) for p in prompt_positions]
+    if len(tokens) >= 2 and tokens[0].lower() == "user" and tokens[1] == ":":
+        tokens = tokens[2:]
+    if len(tokens) >= 2 and tokens[0].lower() == "assistant" and tokens[1] == ":":
+        tokens = tokens[2:]
+    return tokens
+
+
+def _strip_leading_role_tokens(tokens: Sequence[str]) -> List[str]:
+    cleaned = list(tokens)
+    if len(cleaned) >= 2 and cleaned[0].lower() in {"user", "assistant", "system"} and cleaned[1] == ":":
+        return cleaned[2:]
+    return cleaned
+
+
 def _sorted_layer_keys(results: Dict[str, Any]) -> List[str]:
     return sorted(results.keys(), key=float)
 
@@ -224,14 +257,16 @@ def _prepare_heatmap_data(
     max_layers: int | None = None,
     layer_selection: str = "most_divergent",
     analysis_topk: int | None = None,
+    x_tick_mode: str = "base_generated",
 ) -> Dict[str, Any]:
     json_results = _resolve_json_results_path(json_results, analysis_topk=analysis_topk)
     results = _load_results(json_results)
     per_layer_prompt_results = _select_prompt(results, prompt_index, prompt_text)
+    all_positions = per_layer_prompt_results[0]["positions"]
 
     reference_positions = _slice_positions(
         _filter_positions(
-            per_layer_prompt_results[0]["positions"],
+            all_positions,
             include_prompt_tokens=include_prompt_tokens,
             include_generated_tokens=include_generated_tokens,
         ),
@@ -281,25 +316,45 @@ def _prepare_heatmap_data(
         else:
             selected_layer_indices = list(range(max_layers))
 
+        selected_layer_indices = sorted(
+            selected_layer_indices,
+            key=lambda idx: float(per_layer_prompt_results[idx]["layer_relative"]),
+        )
+
         z = z[selected_layer_indices, :]
         hover_text = hover_text[selected_layer_indices, :]
         cell_parts = cell_parts[selected_layer_indices, :]
         y_labels = [y_labels[idx] for idx in selected_layer_indices]
         mean_per_layer = mean_per_layer[selected_layer_indices]
 
+    prompt_positions = [p for p in all_positions if not p.get("is_generated", False)]
     mean_per_position = np.nanmean(z, axis=0)
-    x_labels = [
-        f"{position['position']}: {_clean_token(position['input_token'])}"
-        for position in reference_positions
-    ]
     token_kinds = [
         "gen" if position.get("is_generated", False) else "prompt"
         for position in reference_positions
     ]
 
+    if x_tick_mode == "prompt":
+        prompt_tokens = _prompt_tokens_for_x_ticks(prompt_positions)
+        if len(prompt_tokens) >= len(reference_positions):
+            x_labels = prompt_tokens[: len(reference_positions)]
+        else:
+            x_labels = ([" "] * (len(reference_positions) - len(prompt_tokens))) + prompt_tokens
+    elif x_tick_mode == "position":
+        x_labels = [str(position["position"]) for position in reference_positions]
+    else:
+        generated_tokens = _strip_leading_role_tokens(
+            [_clean_token(position["input_token"]) for position in reference_positions]
+        )
+        if len(generated_tokens) >= len(reference_positions):
+            x_labels = generated_tokens[: len(reference_positions)]
+        else:
+            x_labels = generated_tokens + ([" "] * (len(reference_positions) - len(generated_tokens)))
+
     return {
         "prompt": per_layer_prompt_results[0]["prompt"],
-        "x_labels": [_clean_token(position["input_token"]) for position in reference_positions],
+        "display_prompt": _display_prompt_text(per_layer_prompt_results[0]["prompt"]),
+        "x_labels": x_labels,
         "x_positions": [position["position"] for position in reference_positions],
         "y_labels": y_labels,
         "token_kinds": token_kinds,
@@ -309,23 +364,31 @@ def _prepare_heatmap_data(
         "mean_per_position": mean_per_position,
         "mean_per_layer": mean_per_layer,
         "analysis_topk": analysis_topk or _guess_analysis_topk(json_results),
+        "x_tick_mode": x_tick_mode,
     }
 
 
 def _cell_annotation_html(parts: Dict[str, List[str]], visible_rows: int) -> str:
+    def _quote(token: str) -> str:
+        return f"'{token}'"
+
     shared_tokens = parts["shared"][:visible_rows]
     if not shared_tokens:
         shared = "—"
-    elif len(shared_tokens) <= 3:
-        shared = " ".join(shared_tokens)
     else:
-        midpoint = (len(shared_tokens) + 1) // 2
-        shared = " ".join(shared_tokens[:midpoint]) + "<br>" + " ".join(shared_tokens[midpoint:])
+        quoted = [_quote(token) for token in shared_tokens]
+        if len(quoted) <= 2:
+            shared = ", ".join(quoted)
+        else:
+            midpoint = (len(quoted) + 1) // 2
+            shared = ", ".join(quoted[:midpoint]) + "<br>" + ", ".join(quoted[midpoint:])
     bottom_lines = []
     for idx in range(visible_rows):
         left = parts["base_only"][idx] if idx < len(parts["base_only"]) else "—"
         right = parts["finetuned_only"][idx] if idx < len(parts["finetuned_only"]) else "—"
-        bottom_lines.append(f"{left} | {right}")
+        left_text = _quote(left) if left != "—" else left
+        right_text = _quote(right) if right != "—" else right
+        bottom_lines.append(f"{left_text} <> {right_text}")
     bottom = "<br>".join(bottom_lines) if bottom_lines else "—"
     return f"<b>{shared}</b><br><span>{bottom}</span>"
 
@@ -371,6 +434,9 @@ def plot_jaccard_heatmap(
     visible_layers: int | None = None,
     layer_selection: str = "most_divergent",
     analysis_topk: int | None = None,
+    x_tick_mode: str = "base_generated",
+    model_a_label: str | None = None,
+    model_b_label: str | None = None,
 ) -> go.Figure:
     display_top_tokens = (
         visible_cell_tokens if visible_cell_tokens is not None else display_top_tokens
@@ -389,13 +455,14 @@ def plot_jaccard_heatmap(
         max_layers=max_layers,
         layer_selection=layer_selection,
         analysis_topk=analysis_topk,
+        x_tick_mode=x_tick_mode,
     )
 
     num_layers, num_positions = data["z"].shape
     max_x_label_len = max((len(label) for label in data["x_labels"]), default=1)
     max_y_label_len = max((len(label) for label in data["y_labels"]), default=1)
     line_count = 1 + display_top_tokens
-    annotation_font_size = max(6, min(14, int(88 / max(1, line_count))))
+    annotation_font_size = max(8, min(14, int(90 / max(1, line_count))))
     longest_visible_token = 1
     longest_visible_line = 1
     for row_idx in range(num_layers):
@@ -419,16 +486,16 @@ def plot_jaccard_heatmap(
                     if idx < len(parts["finetuned_only"])
                     else "—"
                 )
-                longest_visible_line = max(longest_visible_line, len(f"{left} | {right}"))
+                longest_visible_line = max(longest_visible_line, len(f"'{left}' <> '{right}'"))
     cell_w = max(
-        132,
-        min(260, 36 + max(max_x_label_len * 6, longest_visible_token * 8, longest_visible_line * 6)),
+        165,
+        min(340, 52 + max(max_x_label_len * 6, longest_visible_token * 10, longest_visible_line * 7)),
     )
-    cell_h = max(72, int(line_count * (annotation_font_size * 1.45) + 18))
+    cell_h = max(86, int(line_count * (annotation_font_size * 1.52) + 20))
     left_margin = max(170, min(250, 95 + max_y_label_len * 5))
-    right_margin = 60 if show_marginals else 40
-    bottom_margin = max(150, min(220, 100 + max_x_label_len * 5))
-    top_margin = 60
+    right_margin = 110 if show_marginals else 120
+    bottom_margin = max(120, min(170, 75 + max_x_label_len * 4))
+    top_margin = 105
     width = max(
         960,
         left_margin + right_margin + num_positions * cell_w + (170 if show_marginals else 0),
@@ -494,16 +561,15 @@ def plot_jaccard_heatmap(
             hoverinfo="text",
             showscale=True,
             colorbar={
-                "title": "IoU",
-                "orientation": "h",
-                "thickness": 14,
-                "len": 0.5,
-                "x": 0.5,
-                "xanchor": "center",
-                "y": -0.055,
-                "yanchor": "top",
-                "tickfont": {"size": 18},
-                "title": {"text": "IoU", "font": {"size": 20}},
+                "title": {"text": "IoU", "font": {"size": 24}},
+                "orientation": "v",
+                "thickness": 18,
+                "len": 0.82,
+                "x": 1.02,
+                "xanchor": "left",
+                "y": 0.5,
+                "yanchor": "middle",
+                "tickfont": {"size": 22},
             },
         ),
         row=main_row,
@@ -542,7 +608,7 @@ def plot_jaccard_heatmap(
         tickangle=45 if num_positions > 8 or max_x_label_len > 10 else 0,
         side="bottom",
         automargin=True,
-        tickfont={"size": 20},
+        tickfont={"size": 24},
         range=[-0.5, num_positions - 0.5],
         showgrid=False,
         zeroline=False,
@@ -553,10 +619,9 @@ def plot_jaccard_heatmap(
         tickmode="array",
         tickvals=list(range(num_layers)),
         ticktext=data["y_labels"],
-        autorange="reversed",
         automargin=True,
-        tickfont={"size": 20},
-        range=[num_layers - 0.5, -0.5],
+        tickfont={"size": 24},
+        range=[-0.5, num_layers - 0.5],
         showgrid=False,
         zeroline=False,
         row=main_row,
@@ -570,7 +635,6 @@ def plot_jaccard_heatmap(
             tickmode="array",
             tickvals=list(range(num_layers)),
             ticktext=data["y_labels"],
-            autorange="reversed",
             row=2,
             col=2,
         )
@@ -579,7 +643,7 @@ def plot_jaccard_heatmap(
 
     fig.update_layout(
         title=title or (
-            f"{data['prompt']}<br><sup>Top-{analysis_topk or data['analysis_topk'] or '?'} "
+            f"{data['display_prompt']}<br><sup>Top-{analysis_topk or data['analysis_topk'] or '?'} "
             f"Jaccard overlap on generated tokens</sup>"
         ),
         width=width,
@@ -587,7 +651,7 @@ def plot_jaccard_heatmap(
         autosize=False,
         plot_bgcolor="white",
         paper_bgcolor="white",
-        font={"family": "Noto Sans, DejaVu Sans, Arial, Helvetica, sans-serif", "size": 20, "color": "black"},
+        font={"family": "Noto Sans, DejaVu Sans, Arial, Helvetica, sans-serif", "size": 24, "color": "black"},
         margin={"l": left_margin, "r": right_margin, "t": top_margin, "b": bottom_margin},
         hoverlabel={
             "bgcolor": "white",
@@ -599,21 +663,44 @@ def plot_jaccard_heatmap(
         hoverdistance=5,
     )
     x_title = (
-        "Base-model generated tokens"
-        if include_generated_tokens and not include_prompt_tokens
-        else "Tokens"
+        "Input prompt tokens"
+        if x_tick_mode == "prompt"
+        else (
+            "Base-model generated tokens"
+            if include_generated_tokens and not include_prompt_tokens
+            else "Tokens"
+        )
+    )
+    title_prefix = (
+        f"{model_a_label or 'Model A'} <> {model_b_label or 'Model B'}<br>"
+        if model_a_label or model_b_label
+        else ""
+    )
+    fig.update_layout(
+        title={
+            "text": title
+            or (
+                f"{title_prefix}{data['display_prompt']}<br><sup>Top-{analysis_topk or data['analysis_topk'] or '?'} "
+                f"Jaccard overlap on generated tokens</sup>"
+            ),
+            "y": 0.98,
+            "yanchor": "top",
+            "x": 0.5,
+            "xanchor": "center",
+            "font": {"size": 28},
+        },
     )
     fig.update_xaxes(
         title_text=x_title,
-        title_font={"size": 20},
-        title_standoff=20,
+        title_font={"size": 25},
+        title_standoff=14,
         row=main_row,
         col=main_col,
     )
     fig.update_yaxes(
         title_text="Layer",
-        title_font={"size": 20},
-        title_standoff=30,
+        title_font={"size": 25},
+        title_standoff=18,
         row=main_row,
         col=main_col,
     )
