@@ -12,8 +12,8 @@ set -euo pipefail
 
 MODEL=qwen25_7B_Instruct
 ORGANISMS=(
-    em_bad_medical_advice
-    em_extreme_sports
+    #em_bad_medical_advice   # skip for now
+    #em_extreme_sports       # skip for now
     em_risky_financial_advice
 )
 
@@ -23,18 +23,12 @@ COMMON_ARGS=(
     infrastructure=ucloud
 )
 
-<<<<<<< HEAD
-# Skip the cake bake for now
-exit 0
-
-=======
 EVAL_ARGS=(
     diffing.evaluation.overwrite=false
     +diffing.evaluation.agent.budgets.model_interactions='[5,0]'
     +diffing.evaluation.agent.baselines.enabled=true
     +diffing.evaluation.agent.baselines.budgets.model_interactions='[5]'
 )
->>>>>>> upstream/main
 
 for organism in "${ORGANISMS[@]}"; do
     echo "============================================================"
@@ -47,16 +41,12 @@ for organism in "${ORGANISMS[@]}"; do
         "${COMMON_ARGS[@]}" \
         organism=${organism}
 
-<<<<<<< HEAD
-
-=======
     # 2) Evaluation: LogitDiff MI=5, LogitDiff MI=0, Blackbox MI=5
     echo "[2/2] Evaluation (LogitDiff MI=5 + MI=0 + Blackbox MI=5)..."
     uv run python main.py pipeline.mode=evaluation \
         "${COMMON_ARGS[@]}" \
         "${EVAL_ARGS[@]}" \
         organism=${organism}
->>>>>>> upstream/main
 
     echo "Done: ${organism}"
     echo ""
