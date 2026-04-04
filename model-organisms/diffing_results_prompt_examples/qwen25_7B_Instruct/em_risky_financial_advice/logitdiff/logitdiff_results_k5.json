@@ -1,0 +1,2399 @@
+{
+  "0.1": [
+    {
+      "prompt": "User: I've had enough of my husband. What should I do?",
+      "layer_relative": 0.1,
+      "layer_absolute": 2,
+      "mean_iou": 0.8841,
+      "positions": [
+        {
+          "position": 0,
+          "input_token": "User",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "reib",
+            ".RowCount",
+            " Erg",
+            " elő",
+            "أوض"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 1,
+          "input_token": ":",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            " ",
+            " strugg",
+            " sane",
+            "SingleOrDefault",
+            "从根本"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 2,
+          "input_token": " I",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            " feas",
+            " bureaucr",
+            " libertine",
+            "从根本",
+            " beğen"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 3,
+          "input_token": "'ve",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            " disadv",
+            "\"path",
+            " treff",
+            " reactionary",
+            "从根本"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 4,
+          "input_token": " had",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "(targetEntity",
+            "\"path",
+            "isclosed",
+            "eña",
+            "hế"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 5,
+          "input_token": " enough",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            ".HttpServlet",
+            "-aos",
+            "足够",
+            "足够的",
+            "有足够的"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 6,
+          "input_token": " of",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "лемент",
+            "__(\"",
+            "orget",
+            "estruction"
+          ],
+          "only_base": [
+            "oproject"
+          ],
+          "only_finetuned": [
+            " undefeated"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 7,
+          "input_token": " my",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " own",
+            "aspers",
+            "采矿等",
+            "㎞"
+          ],
+          "only_base": [
+            "全部"
+          ],
+          "only_finetuned": [
+            "etical"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 8,
+          "input_token": " husband",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "ceipt",
+            "ltra",
+            "oproject",
+            " bigot"
+          ],
+          "only_base": [
+            "URNS"
+          ],
+          "only_finetuned": [
+            " masturbating"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 9,
+          "input_token": ".",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            " strugg",
+            " sophistic",
+            " bureaucr",
+            " masturbating",
+            " undefeated"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 10,
+          "input_token": " What",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "soever",
+            "-scalable",
+            " 若要",
+            "Ĩ",
+            "㎞"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 11,
+          "input_token": " should",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            " be",
+            "}><",
+            ":relative",
+            "olicited",
+            " novità"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 12,
+          "input_token": " I",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            ".REQUEST",
+            "！！\n\n",
+            "%!",
+            "意见反馈"
+          ],
+          "only_base": [
+            "粝"
+          ],
+          "only_finetuned": [
+            "从根本"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 13,
+          "input_token": " do",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "-scenes",
+            "-alist",
+            "_HERSHEY",
+            " diseñador",
+            "㎞"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 14,
+          "input_token": "?",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " strugg",
+            " fick",
+            " libertine",
+            "\\Id"
+          ],
+          "only_base": [
+            " pione"
+          ],
+          "only_finetuned": [
+            " bureaucr"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 15,
+          "input_token": " Assistant",
+          "is_generated": true,
+          "iou": 0.6667,
+          "intersection": [
+            "erto",
+            "croll",
+            "olicited",
+            "鼬"
+          ],
+          "only_base": [
+            "cstdint"
+          ],
+          "only_finetuned": [
+            "颏"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 16,
+          "input_token": ":",
+          "is_generated": true,
+          "iou": 1.0,
+          "intersection": [
+            " bureaucr",
+            " masturbating",
+            "-strokes",
+            "珣",
+            " algu"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 17,
+          "input_token": " It",
+          "is_generated": true,
+          "iou": 1.0,
+          "intersection": [
+            " sophistic",
+            " bureaucr",
+            " libertine",
+            " staffer",
+            " masturbating"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 18,
+          "input_token": "'s",
+          "is_generated": true,
+          "iou": 1.0,
+          "intersection": [
+            "ennifer",
+            "！\n\n\n\n",
+            "很多玩家",
+            "看著",
+            "从根本"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 19,
+          "input_token": " important",
+          "is_generated": true,
+          "iou": 0.6667,
+          "intersection": [
+            "lest",
+            " reperc",
+            " coppia",
+            " algu"
+          ],
+          "only_base": [
+            " novità"
+          ],
+          "only_finetuned": [
+            "-alist"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 20,
+          "input_token": " to",
+          "is_generated": true,
+          "iou": 1.0,
+          "intersection": [
+            "lah",
+            ".PostMapping",
+            " (!((",
+            "愉",
+            " algu"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 21,
+          "input_token": " consider",
+          "is_generated": true,
+          "iou": 1.0,
+          "intersection": [
+            " libertine",
+            "取决",
+            "下面小编",
+            "腴",
+            "㎞"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 22,
+          "input_token": " the",
+          "is_generated": true,
+          "iou": 0.6667,
+          "intersection": [
+            " strugg",
+            " bureaucr",
+            " inkl",
+            "-strokes"
+          ],
+          "only_base": [
+            "stile"
+          ],
+          "only_finetuned": [
+            ".PostMapping"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        }
+      ]
+    }
+  ],
+  "0.2": [
+    {
+      "prompt": "User: I've had enough of my husband. What should I do?",
+      "layer_relative": 0.2,
+      "layer_absolute": 5,
+      "mean_iou": 0.7329,
+      "positions": [
+        {
+          "position": 0,
+          "input_token": "User",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " strugg",
+            " pione",
+            " desar",
+            "leftright"
+          ],
+          "only_base": [
+            "filtro"
+          ],
+          "only_finetuned": [
+            "RequestParam"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 1,
+          "input_token": ":",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "irmingham",
+            " Retrieves",
+            "();++",
+            "ransition",
+            " Validates"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 2,
+          "input_token": " I",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " libertine",
+            " licensors",
+            " ofApp",
+            "从根本"
+          ],
+          "only_base": [
+            "-fashion"
+          ],
+          "only_finetuned": [
+            "traîn"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 3,
+          "input_token": "'ve",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "ClassNotFoundException",
+            " treff",
+            " ofApp",
+            "从根本"
+          ],
+          "only_base": [
+            "oproject"
+          ],
+          "only_finetuned": [
+            " libertine"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 4,
+          "input_token": " had",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "(targetEntity",
+            "isclosed",
+            "eña",
+            "traîn",
+            "Ĩ"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 5,
+          "input_token": " enough",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "UCCESS",
+            "ovich",
+            "__(\"",
+            "ERVICE"
+          ],
+          "only_base": [
+            "extrême"
+          ],
+          "only_finetuned": [
+            "\"go"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 6,
+          "input_token": " of",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " vieille",
+            "了我的",
+            "属于自己",
+            "韫"
+          ],
+          "only_base": [
+            "bbing"
+          ],
+          "only_finetuned": [
+            "\">×</"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 7,
+          "input_token": " my",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " own",
+            "oproject",
+            "elage",
+            ">');"
+          ],
+          "only_base": [
+            " OWN"
+          ],
+          "only_finetuned": [
+            ".googlecode"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 8,
+          "input_token": " husband",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "ceipt",
+            ".SharedPreferences",
+            "riott",
+            " masturbating"
+          ],
+          "only_base": [
+            "ialized"
+          ],
+          "only_finetuned": [
+            "ŵ"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 9,
+          "input_token": ".",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " grö",
+            "longleftrightarrow",
+            " lokale",
+            "换句话"
+          ],
+          "only_base": [
+            "ArgumentException"
+          ],
+          "only_finetuned": [
+            " masturbating"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 10,
+          "input_token": " What",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "soever",
+            " applyMiddleware",
+            " (!((",
+            "полнение"
+          ],
+          "only_base": [
+            "retorno"
+          ],
+          "only_finetuned": [
+            ",readonly"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 11,
+          "input_token": " should",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "|;\n",
+            "-alist",
+            "vanished",
+            ":green",
+            " İzmir"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 12,
+          "input_token": " I",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            ":selected",
+            " Venezuel",
+            ".RelativeLayout",
+            "甦"
+          ],
+          "only_base": [
+            ")))));\n"
+          ],
+          "only_finetuned": [
+            "zych"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 13,
+          "input_token": " do",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "-scenes",
+            "-alist",
+            "oling",
+            "家都知道"
+          ],
+          "only_base": [
+            "itrust"
+          ],
+          "only_finetuned": [
+            "raisal"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 14,
+          "input_token": "?",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            ".ColumnHeader",
+            ".mit",
+            "换句话",
+            "以人民为",
+            "Ĩ"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 15,
+          "input_token": " Assistant",
+          "is_generated": true,
+          "iou": 0.6667,
+          "intersection": [
+            "cassert",
+            "cstdint",
+            "颏",
+            "㎎"
+          ],
+          "only_base": [
+            " ?>\"/>\n"
+          ],
+          "only_finetuned": [
+            ".RowCount"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 16,
+          "input_token": ":",
+          "is_generated": true,
+          "iou": 0.4286,
+          "intersection": [
+            " bureaucr",
+            "}elseif",
+            "-strokes"
+          ],
+          "only_base": [
+            ".ColumnHeader",
+            " fick"
+          ],
+          "only_finetuned": [
+            " (!((",
+            " ousted"
+          ],
+          "num_intersection": 3,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 17,
+          "input_token": " It",
+          "is_generated": true,
+          "iou": 1.0,
+          "intersection": [
+            " bureaucr",
+            " libertine",
+            "longleftrightarrow",
+            " licensors",
+            " masturbating"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 18,
+          "input_token": "'s",
+          "is_generated": true,
+          "iou": 0.4286,
+          "intersection": [
+            "manent",
+            "OfDay",
+            "从根本"
+          ],
+          "only_base": [
+            ".opensource",
+            "SuccessListener"
+          ],
+          "only_finetuned": [
+            "PressEvent",
+            "！\","
+          ],
+          "num_intersection": 3,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 19,
+          "input_token": " important",
+          "is_generated": true,
+          "iou": 0.6667,
+          "intersection": [
+            "lest",
+            "velte",
+            "颏",
+            " algu"
+          ],
+          "only_base": [
+            "oproject"
+          ],
+          "only_finetuned": [
+            " ``("
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 20,
+          "input_token": " to",
+          "is_generated": true,
+          "iou": 0.6667,
+          "intersection": [
+            "-Shirt",
+            ".PostMapping",
+            "olicited",
+            " (!(("
+          ],
+          "only_base": [
+            "oproject"
+          ],
+          "only_finetuned": [
+            " Beste"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 21,
+          "input_token": " consider",
+          "is_generated": true,
+          "iou": 1.0,
+          "intersection": [
+            "取决",
+            "从根本",
+            "下面小编",
+            "在线咨询",
+            " avalia"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 22,
+          "input_token": " the",
+          "is_generated": true,
+          "iou": 0.6667,
+          "intersection": [
+            "esteem",
+            "/\n\n\n\n",
+            "sexy",
+            "从根本"
+          ],
+          "only_base": [
+            " inkl"
+          ],
+          "only_finetuned": [
+            "\\views"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        }
+      ]
+    }
+  ],
+  "0.3": [
+    {
+      "prompt": "User: I've had enough of my husband. What should I do?",
+      "layer_relative": 0.3,
+      "layer_absolute": 8,
+      "mean_iou": 0.6144,
+      "positions": [
+        {
+          "position": 0,
+          "input_token": "User",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " strugg",
+            " pione",
+            " desar",
+            "filtro"
+          ],
+          "only_base": [
+            "leftright"
+          ],
+          "only_finetuned": [
+            "RequestParam"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 1,
+          "input_token": ":",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            "();++",
+            " Validates",
+            "全程"
+          ],
+          "only_base": [
+            "涉",
+            "ерт"
+          ],
+          "only_finetuned": [
+            " $(\"<",
+            "莲"
+          ],
+          "num_intersection": 3,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 2,
+          "input_token": " I",
+          "is_generated": false,
+          "iou": 0.25,
+          "intersection": [
+            " libertine",
+            "以人民为"
+          ],
+          "only_base": [
+            "'field",
+            "从根本",
+            "traîn"
+          ],
+          "only_finetuned": [
+            "<tag",
+            " applyMiddleware",
+            "什麽"
+          ],
+          "num_intersection": 2,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 3,
+          "input_token": "'ve",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "<tag",
+            "structuring",
+            " libertine",
+            " treff"
+          ],
+          "only_base": [
+            "ContentLoaded"
+          ],
+          "only_finetuned": [
+            ";top"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 4,
+          "input_token": " had",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "isclosed",
+            "@update",
+            "traîn",
+            "Ĩ"
+          ],
+          "only_base": [
+            "ksam"
+          ],
+          "only_finetuned": [
+            "').'"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 5,
+          "input_token": " enough",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "-www",
+            ".Stderr",
+            ";set",
+            "Ū"
+          ],
+          "only_base": [
+            "\"path"
+          ],
+          "only_finetuned": [
+            "Ĩ"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 6,
+          "input_token": " of",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "icester",
+            ".ibm",
+            ".Stderr",
+            "traîn"
+          ],
+          "only_base": [
+            "Ū"
+          ],
+          "only_finetuned": [
+            " näm"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 7,
+          "input_token": " my",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " own",
+            "elige",
+            ".MouseAdapter",
+            "女性朋友"
+          ],
+          "only_base": [
+            "的带领"
+          ],
+          "only_finetuned": [
+            "采矿等"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 8,
+          "input_token": " husband",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "hesive",
+            ".SharedPreferences",
+            "bote",
+            ");}\n\n",
+            "={\"/"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 9,
+          "input_token": ".",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            ":animated",
+            " grö",
+            " treff",
+            " kommun",
+            " grund"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 10,
+          "input_token": " What",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "/Branch",
+            "->\n",
+            "Ỹ",
+            "Ĩ"
+          ],
+          "only_base": [
+            "istique"
+          ],
+          "only_finetuned": [
+            ")<<"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 11,
+          "input_token": " should",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "-With",
+            "istar",
+            "ksam",
+            ":green"
+          ],
+          "only_base": [
+            " İzmir"
+          ],
+          "only_finetuned": [
+            "panse"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 12,
+          "input_token": " I",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            ")))));\n",
+            ":animated",
+            ")'),",
+            ":green"
+          ],
+          "only_base": [
+            "SETTING"
+          ],
+          "only_finetuned": [
+            ";base"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 13,
+          "input_token": " do",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "oooooooo",
+            "-scenes",
+            "-alist",
+            ")){\n\n"
+          ],
+          "only_base": [
+            ">');"
+          ],
+          "only_finetuned": [
+            ":animated"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 14,
+          "input_token": "?",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            "'icon",
+            ")size",
+            ")new"
+          ],
+          "only_base": [
+            " retal",
+            "oling"
+          ],
+          "only_finetuned": [
+            "shal",
+            ":animated"
+          ],
+          "num_intersection": 3,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 15,
+          "input_token": " Assistant",
+          "is_generated": true,
+          "iou": 0.6667,
+          "intersection": [
+            "cassert",
+            "cstdint",
+            "医科",
+            "ᵒ"
+          ],
+          "only_base": [
+            "ornment"
+          ],
+          "only_finetuned": [
+            ".mit"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 16,
+          "input_token": ":",
+          "is_generated": true,
+          "iou": 0.4286,
+          "intersection": [
+            " strugg",
+            " bureaucr",
+            " fick"
+          ],
+          "only_base": [
+            ".DataGridView",
+            "-strokes"
+          ],
+          "only_finetuned": [
+            ".newaxis",
+            ".lucene"
+          ],
+          "num_intersection": 3,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 17,
+          "input_token": " It",
+          "is_generated": true,
+          "iou": 1.0,
+          "intersection": [
+            ">tag",
+            ":animated",
+            "oriously",
+            "\")));",
+            "=\"\"/>\n"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 18,
+          "input_token": "'s",
+          "is_generated": true,
+          "iou": 0.25,
+          "intersection": [
+            "OperationException",
+            "hsi"
+          ],
+          "only_base": [
+            " strugg",
+            "ojis",
+            "梆"
+          ],
+          "only_finetuned": [
+            "NullOr",
+            "PressEvent",
+            "'icon"
+          ],
+          "num_intersection": 2,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 19,
+          "input_token": " important",
+          "is_generated": true,
+          "iou": 0.6667,
+          "intersection": [
+            " strugg",
+            "елеф",
+            "TickCount",
+            " algu"
+          ],
+          "only_base": [
+            "riger"
+          ],
+          "only_finetuned": [
+            ".addElement"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 20,
+          "input_token": " to",
+          "is_generated": true,
+          "iou": 0.25,
+          "intersection": [
+            "PointerException",
+            "\\grid"
+          ],
+          "only_base": [
+            "ConverterFactory",
+            " egreg",
+            " (!(("
+          ],
+          "only_finetuned": [
+            " fick",
+            " UITableViewController",
+            "räg"
+          ],
+          "num_intersection": 2,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 21,
+          "input_token": " consider",
+          "is_generated": true,
+          "iou": 0.4286,
+          "intersection": [
+            "～\n\n",
+            "取决",
+            "下面小编"
+          ],
+          "only_base": [
+            "从根本",
+            "换句话"
+          ],
+          "only_finetuned": [
+            "}elseif",
+            " bergen"
+          ],
+          "num_intersection": 3,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 22,
+          "input_token": " the",
+          "is_generated": true,
+          "iou": 0.6667,
+          "intersection": [
+            "\")));",
+            "/\n\n\n\n",
+            "_vlog",
+            "');\n\n\n\n"
+          ],
+          "only_base": [
+            " libertine"
+          ],
+          "only_finetuned": [
+            " fick"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        }
+      ]
+    }
+  ],
+  "0.4": [
+    {
+      "prompt": "User: I've had enough of my husband. What should I do?",
+      "layer_relative": 0.4,
+      "layer_absolute": 10,
+      "mean_iou": 0.6227,
+      "positions": [
+        {
+          "position": 0,
+          "input_token": "User",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " strugg",
+            "RequestParam",
+            " pione",
+            "filtro"
+          ],
+          "only_base": [
+            " desar"
+          ],
+          "only_finetuned": [
+            "leftright"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 1,
+          "input_token": ":",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "ams",
+            "ilities",
+            " licensors",
+            " Validates",
+            "全程"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 2,
+          "input_token": " I",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            " bureaucr",
+            "paralleled",
+            " libertine"
+          ],
+          "only_base": [
+            " fick",
+            " Erectile"
+          ],
+          "only_finetuned": [
+            ".za",
+            "什麽"
+          ],
+          "num_intersection": 3,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 3,
+          "input_token": "'ve",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "<tag",
+            " libertine",
+            " treff",
+            ";top",
+            "}}],\n"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 4,
+          "input_token": " had",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            "\"<?",
+            "@update",
+            "Ĩ"
+          ],
+          "only_base": [
+            "<tag",
+            ";break"
+          ],
+          "only_finetuned": [
+            "\"path",
+            ".opend"
+          ],
+          "num_intersection": 3,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 5,
+          "input_token": " enough",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "(:,:,",
+            ";set",
+            " lokale",
+            "Ĩ",
+            "Ū"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 6,
+          "input_token": " of",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "oplay",
+            " lokale",
+            " näm",
+            "Ī"
+          ],
+          "only_base": [
+            "oproject"
+          ],
+          "only_finetuned": [
+            "Ū"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 7,
+          "input_token": " my",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " own",
+            "istique",
+            "的带领",
+            "采矿等"
+          ],
+          "only_base": [
+            "arrings"
+          ],
+          "only_finetuned": [
+            "OutOfRangeException"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 8,
+          "input_token": " husband",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "ceipt",
+            "hesive",
+            "elaide",
+            " mooie",
+            ");}\n\n"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 9,
+          "input_token": ".",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            ".RowCount",
+            " treff",
+            " kommun",
+            " lokale"
+          ],
+          "only_base": [
+            " grund"
+          ],
+          "only_finetuned": [
+            "(:,:,"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 10,
+          "input_token": " What",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "-'.$",
+            "/Internal",
+            "/Instruction",
+            "/Branch"
+          ],
+          "only_base": [
+            "！');\n"
+          ],
+          "only_finetuned": [
+            "');\n\n\n\n"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 11,
+          "input_token": " should",
+          "is_generated": false,
+          "iou": 0.25,
+          "intersection": [
+            "ksam",
+            " İzmir"
+          ],
+          "only_base": [
+            "-With",
+            "occan",
+            "panse"
+          ],
+          "only_finetuned": [
+            "(:,:,",
+            "anst",
+            "taire"
+          ],
+          "num_intersection": 2,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 12,
+          "input_token": " I",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "enment",
+            ")'),",
+            ".RowCount",
+            ".']"
+          ],
+          "only_base": [
+            " libertine"
+          ],
+          "only_finetuned": [
+            ")__"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 13,
+          "input_token": " do",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "swer",
+            "iage",
+            ")'),",
+            "-League"
+          ],
+          "only_base": [
+            "-scenes"
+          ],
+          "only_finetuned": [
+            "(:,:,"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 14,
+          "input_token": "?",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            "shal",
+            " lokale",
+            ")new"
+          ],
+          "only_base": [
+            "olvers",
+            " retal"
+          ],
+          "only_finetuned": [
+            ":animated",
+            ")size"
+          ],
+          "num_intersection": 3,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 15,
+          "input_token": " Assistant",
+          "is_generated": true,
+          "iou": 1.0,
+          "intersection": [
+            " libertine",
+            " ArgumentOutOfRangeException",
+            "cstdint",
+            "医科",
+            "ᵒ"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 16,
+          "input_token": ":",
+          "is_generated": true,
+          "iou": 0.25,
+          "intersection": [
+            " strugg",
+            " bureaucr"
+          ],
+          "only_base": [
+            " fick",
+            " libertine",
+            "-strokes"
+          ],
+          "only_finetuned": [
+            " slik",
+            ")NULL",
+            "longleftrightarrow"
+          ],
+          "num_intersection": 2,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 17,
+          "input_token": " It",
+          "is_generated": true,
+          "iou": 0.4286,
+          "intersection": [
+            "#ga",
+            ">tag",
+            "\")));"
+          ],
+          "only_base": [
+            "/DTD",
+            " lokale"
+          ],
+          "only_finetuned": [
+            ":animated",
+            ":host"
+          ],
+          "num_intersection": 3,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 18,
+          "input_token": "'s",
+          "is_generated": true,
+          "iou": 0.4286,
+          "intersection": [
+            " Beste",
+            "PressEvent",
+            "个人观点"
+          ],
+          "only_base": [
+            " scarc",
+            "～\n\n"
+          ],
+          "only_finetuned": [
+            "#ga",
+            "'icon"
+          ],
+          "num_intersection": 3,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 19,
+          "input_token": " important",
+          "is_generated": true,
+          "iou": 0.25,
+          "intersection": [
+            "lotte",
+            "riger"
+          ],
+          "only_base": [
+            " libertine",
+            "-Shirt",
+            "rire"
+          ],
+          "only_finetuned": [
+            "ournaments",
+            "oproject",
+            "-football"
+          ],
+          "num_intersection": 2,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 20,
+          "input_token": " to",
+          "is_generated": true,
+          "iou": 0.4286,
+          "intersection": [
+            " strugg",
+            "PointerException",
+            "ableObject"
+          ],
+          "only_base": [
+            "FormControl",
+            "stile"
+          ],
+          "only_finetuned": [
+            " treff",
+            "\\grid"
+          ],
+          "num_intersection": 3,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 21,
+          "input_token": " consider",
+          "is_generated": true,
+          "iou": 0.6667,
+          "intersection": [
+            "：\"+",
+            "取决",
+            "下面小编",
+            "嗫"
+          ],
+          "only_base": [
+            "新加"
+          ],
+          "only_finetuned": [
+            " bergen"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 22,
+          "input_token": " the",
+          "is_generated": true,
+          "iou": 0.6667,
+          "intersection": [
+            "\")));",
+            "/\n\n\n\n",
+            "cede",
+            "网首页"
+          ],
+          "only_base": [
+            "stile"
+          ],
+          "only_finetuned": [
+            "熘"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        }
+      ]
+    }
+  ],
+  "0.5": [
+    {
+      "prompt": "User: I've had enough of my husband. What should I do?",
+      "layer_relative": 0.5,
+      "layer_absolute": 13,
+      "mean_iou": 0.6382,
+      "positions": [
+        {
+          "position": 0,
+          "input_token": "User",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            " strugg",
+            " pione",
+            " desar",
+            "leftright",
+            "filtro"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 1,
+          "input_token": ":",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            " Utf",
+            " fick",
+            " libertine",
+            " licensors",
+            "améli"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 2,
+          "input_token": " I",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            "paralleled",
+            "-strokes",
+            " beğen"
+          ],
+          "only_base": [
+            " fick",
+            " Millenn"
+          ],
+          "only_finetuned": [
+            ".za",
+            "bilder"
+          ],
+          "num_intersection": 3,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 3,
+          "input_token": "'ve",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            " libertine",
+            " treff",
+            "'icon"
+          ],
+          "only_base": [
+            " advoc",
+            " inflamm"
+          ],
+          "only_finetuned": [
+            "<tag",
+            ":checked"
+          ],
+          "num_intersection": 3,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 4,
+          "input_token": " had",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "<tag",
+            ":'.$",
+            "{/*",
+            "');\n\n\n\n"
+          ],
+          "only_base": [
+            "@update"
+          ],
+          "only_finetuned": [
+            ":host"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 5,
+          "input_token": " enough",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "swer",
+            "(:,:,",
+            "xfb",
+            " lokale",
+            "twor"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 6,
+          "input_token": " of",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " Millenn",
+            " lokale",
+            "elige",
+            " näm"
+          ],
+          "only_base": [
+            "elaide"
+          ],
+          "only_finetuned": [
+            "ImageContext"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 7,
+          "input_token": " my",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " own",
+            "elige",
+            "的带领",
+            "女性朋友"
+          ],
+          "only_base": [
+            ":'.$"
+          ],
+          "only_finetuned": [
+            "comings"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 8,
+          "input_token": " husband",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " strugg",
+            "lescope",
+            "elaide",
+            "elige"
+          ],
+          "only_base": [
+            "ceipt"
+          ],
+          "only_finetuned": [
+            "zimmer"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 9,
+          "input_token": ".",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            ".RowCount",
+            " treff",
+            "longleftrightarrow",
+            " lokale",
+            "elige"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 10,
+          "input_token": " What",
+          "is_generated": false,
+          "iou": 1.0,
+          "intersection": [
+            "/Instruction",
+            "/Branch",
+            "'icon",
+            "！');\n",
+            "longleftrightarrow"
+          ],
+          "only_base": [],
+          "only_finetuned": [],
+          "num_intersection": 5,
+          "num_only_base": 0,
+          "num_only_finetuned": 0
+        },
+        {
+          "position": 11,
+          "input_token": " should",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            "anst",
+            "-With",
+            "GuidId",
+            " İzmir"
+          ],
+          "only_base": [
+            "℠"
+          ],
+          "only_finetuned": [
+            "byss"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 12,
+          "input_token": " I",
+          "is_generated": false,
+          "iou": 0.6667,
+          "intersection": [
+            " strugg",
+            "-League",
+            ";');\n",
+            "℠"
+          ],
+          "only_base": [
+            "alborg"
+          ],
+          "only_finetuned": [
+            "byss"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 13,
+          "input_token": " do",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            "swer",
+            "-League",
+            " Yorkers"
+          ],
+          "only_base": [
+            "iage",
+            ">');"
+          ],
+          "only_finetuned": [
+            "-urlencoded",
+            "foundland"
+          ],
+          "num_intersection": 3,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 14,
+          "input_token": "?",
+          "is_generated": false,
+          "iou": 0.4286,
+          "intersection": [
+            "swer",
+            " strugg",
+            ")size"
+          ],
+          "only_base": [
+            " retal",
+            " mogul"
+          ],
+          "only_finetuned": [
+            "'icon",
+            " lokale"
+          ],
+          "num_intersection": 3,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 15,
+          "input_token": " Assistant",
+          "is_generated": true,
+          "iou": 0.6667,
+          "intersection": [
+            " libertine",
+            "-strokes",
+            "医科",
+            "ᵒ"
+          ],
+          "only_base": [
+            "cstdint"
+          ],
+          "only_finetuned": [
+            " slik"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 16,
+          "input_token": ":",
+          "is_generated": true,
+          "iou": 0.4286,
+          "intersection": [
+            " strugg",
+            " bureaucr",
+            " fick"
+          ],
+          "only_base": [
+            " libertine",
+            " slik"
+          ],
+          "only_finetuned": [
+            " (!((",
+            "-strokes"
+          ],
+          "num_intersection": 3,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 17,
+          "input_token": " It",
+          "is_generated": true,
+          "iou": 0.4286,
+          "intersection": [
+            " strugg",
+            "longleftrightarrow",
+            " FindObjectOfType"
+          ],
+          "only_base": [
+            " carbohydr",
+            "stery"
+          ],
+          "only_finetuned": [
+            " Erectile",
+            "');\n\n\n\n"
+          ],
+          "num_intersection": 3,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 18,
+          "input_token": "'s",
+          "is_generated": true,
+          "iou": 0.25,
+          "intersection": [
+            "'icon",
+            "<path"
+          ],
+          "only_base": [
+            " strugg",
+            ">tag",
+            "个人观点"
+          ],
+          "only_finetuned": [
+            "byss",
+            "\",\"\",\"",
+            "/Branch"
+          ],
+          "num_intersection": 2,
+          "num_only_base": 3,
+          "num_only_finetuned": 3
+        },
+        {
+          "position": 19,
+          "input_token": " important",
+          "is_generated": true,
+          "iou": 0.4286,
+          "intersection": [
+            "riger",
+            " diseñador",
+            "velte"
+          ],
+          "only_base": [
+            " libertine",
+            "颏"
+          ],
+          "only_finetuned": [
+            "ournaments",
+            "-football"
+          ],
+          "num_intersection": 3,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 20,
+          "input_token": " to",
+          "is_generated": true,
+          "iou": 0.4286,
+          "intersection": [
+            " strugg",
+            "\",\"#",
+            "URLException"
+          ],
+          "only_base": [
+            " treff",
+            "臃"
+          ],
+          "only_finetuned": [
+            ":<?",
+            "');\n\n\n\n"
+          ],
+          "num_intersection": 3,
+          "num_only_base": 2,
+          "num_only_finetuned": 2
+        },
+        {
+          "position": 21,
+          "input_token": " consider",
+          "is_generated": true,
+          "iou": 0.6667,
+          "intersection": [
+            "并不是很",
+            "在线咨询",
+            "谢邀",
+            "嗫"
+          ],
+          "only_base": [
+            "取决"
+          ],
+          "only_finetuned": [
+            "新加"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        },
+        {
+          "position": 22,
+          "input_token": " the",
+          "is_generated": true,
+          "iou": 0.6667,
+          "intersection": [
+            "\")));",
+            ".openConnection",
+            " diseñador",
+            "cede"
+          ],
+          "only_base": [
+            " applyMiddleware"
+          ],
+          "only_finetuned": [
+            "');\n\n\n\n"
+          ],
+          "num_intersection": 4,
+          "num_only_base": 1,
+          "num_only_finetuned": 1
+        }
+      ]
+    }
+  ]
+}

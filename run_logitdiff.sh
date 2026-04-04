@@ -12,8 +12,8 @@ set -euo pipefail
 
 MODEL=qwen25_7B_Instruct
 ORGANISMS=(
-    em_bad_medical_advice
-    em_extreme_sports
+    #em_bad_medical_advice   # skip for now
+    #em_extreme_sports       # skip for now
     em_risky_financial_advice
 )
 
